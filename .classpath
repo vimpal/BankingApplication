@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="target/classes" path="src/main/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jst.server.core.container/org.eclipse.jst.server.tomcat.runtimeTarget/Apache Tomcat v7.0">
+		<attributes>
+			<attribute name="owner.project.facets" value="jst.web"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/J2SE-1.5">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="lib" path="D:/CC Pipeline/ExternalJars/apache-mime4j-0.6.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/CC Pipeline/ExternalJars/bcpkix-jdk15on-1.48.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/CC Pipeline/ExternalJars/bcprov-jdk15on-1.48.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/CC Pipeline/ExternalJars/bsh-1.3.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/CC Pipeline/ExternalJars/cglib-nodep-2.1_3.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/CC Pipeline/ExternalJars/commons-codec-1.9.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/CC Pipeline/ExternalJars/commons-collections-3.2.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/CC Pipeline/ExternalJars/commons-exec-1.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/CC Pipeline/ExternalJars/commons-fileupload-1.2.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/CC Pipeline/ExternalJars/commons-io-2.4.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/CC Pipeline/ExternalJars/commons-jxpath-1.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/CC Pipeline/ExternalJars/commons-lang3-3.3.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/CC Pipeline/ExternalJars/commons-logging-1.1.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/CC Pipeline/ExternalJars/cssparser-0.9.14.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/CC Pipeline/ExternalJars/freemarker-2.3.15.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/CC Pipeline/ExternalJars/gitblit.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/CC Pipeline/ExternalJars/guava-18.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/CC Pipeline/ExternalJars/hamcrest-core-1.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/CC Pipeline/ExternalJars/htmlunit-2.15.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/CC Pipeline/ExternalJars/htmlunit-core-js-2.15.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/CC Pipeline/ExternalJars/httpclient-4.3.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/CC Pipeline/ExternalJars/httpcore-4.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/CC Pipeline/ExternalJars/httpmime-4.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/CC Pipeline/ExternalJars/ini4j-0.5.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/CC Pipeline/ExternalJars/jackson-core-asl-1.9.7.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/CC Pipeline/ExternalJars/jackson-core-lgpl-1.9.7.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/CC Pipeline/ExternalJars/jackson-mapper-asl-1.9.7.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/CC Pipeline/ExternalJars/javax.servlet-api-3.1.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/CC Pipeline/ExternalJars/jcip-annotations-1.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/CC Pipeline/ExternalJars/jcommander-1.29.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/CC Pipeline/ExternalJars/jetty-http-8.1.15.v20140411.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/CC Pipeline/ExternalJars/jetty-io-8.1.15.v20140411.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/CC Pipeline/ExternalJars/jetty-rc-repacked-5.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/CC Pipeline/ExternalJars/jetty-repacked-7.6.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/CC Pipeline/ExternalJars/jetty-util-8.1.15.v20140411.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/CC Pipeline/ExternalJars/jetty-websocket-8.1.8.v20121106.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/CC Pipeline/ExternalJars/jetty-websocket-8.1.15.v20140411.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/CC Pipeline/ExternalJars/jna-3.4.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/CC Pipeline/ExternalJars/json-20140107.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/CC Pipeline/ExternalJars/jstl-1.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/CC Pipeline/ExternalJars/junit-4.11.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/CC Pipeline/ExternalJars/mx4j-tools-3.0.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/CC Pipeline/ExternalJars/nekohtml-1.9.21.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/CC Pipeline/ExternalJars/netty-3.5.7.Final.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/CC Pipeline/ExternalJars/ognl-2.7.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/CC Pipeline/ExternalJars/operadriver-1.5.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/CC Pipeline/ExternalJars/operalaunchers-1.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/CC Pipeline/ExternalJars/phantomjsdriver-1.1.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/CC Pipeline/ExternalJars/platform-3.4.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/CC Pipeline/ExternalJars/protobuf-java-2.5.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/CC Pipeline/ExternalJars/sac-1.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/CC Pipeline/ExternalJars/selenium-api-2.39.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/CC Pipeline/ExternalJars/selenium-chrome-driver-2.43.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/CC Pipeline/ExternalJars/selenium-firefox-driver-2.43.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/CC Pipeline/ExternalJars/selenium-htmlunit-driver-2.43.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/CC Pipeline/ExternalJars/selenium-ie-driver-2.42.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/CC Pipeline/ExternalJars/selenium-java-2.43.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/CC Pipeline/ExternalJars/selenium-remote-driver-2.39.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/CC Pipeline/ExternalJars/selenium-safari-driver-2.43.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/CC Pipeline/ExternalJars/selenium-server-2.44.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/CC Pipeline/ExternalJars/selenium-support-2.43.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/CC Pipeline/ExternalJars/serializer-2.7.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/CC Pipeline/ExternalJars/servlet-api-2.5-6.1.9.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/CC Pipeline/ExternalJars/snakeyaml-1.8.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/CC Pipeline/ExternalJars/spring-test-2.5.6.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/CC Pipeline/ExternalJars/struts2-core-2.1.8.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/CC Pipeline/ExternalJars/testng-6.8.5.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/CC Pipeline/ExternalJars/webbit-0.4.15.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/CC Pipeline/ExternalJars/xalan-2.7.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/CC Pipeline/ExternalJars/xercesImpl-2.11.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/CC Pipeline/ExternalJars/xml-apis-1.4.01.jar"/>
+	<classpathentry exported="true" kind="lib" path="D:/CC Pipeline/ExternalJars/xwork-core-2.1.6.jar"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>

@@ -1,0 +1,3499 @@
+/* Maqetta modifications */
+/* Maqetta modifications */
+/* Maqetta modifications */
+/* Maqetta modifications */
+/* Maqetta modifications */
+/* Maqetta modifications */
+/*
+* This file is provided for application-specific style rules.
+*
+* By default, InfosysRPT includes this CSS file within HTML pages
+* authored in InfosysRPT.
+*
+* This file is typically used to override style rules found in
+* theme CSS files. For example, suppose the theme CSS file has:
+*
+* .claro .dijitButton .dijitButtonNode {
+*		padding:2px 4px 4px 4px;
+* }
+*
+* But for your application suppose you want to tighten the padding
+* for buttons. Then, you might include the following style rule
+* in this file (assuming that you accept InfosysRPT's default where
+* id "myapp" is present on the BODY element, and assuming
+* that you are using the "claro" theme):
+*
+* #myapp.claro .dijitButton .dijitButtonNode {
+*		padding:1px 3px 3px 3px;
+* }
+*
+* Because of CSS precedence rules (see [1]), the above style rule
+* (which begins with #myapp.claro) will "win the cascade" versus 
+* the style rule from the theme CSS file due to the use of the
+* ID select (#myapp), which has higher specificity than the class
+* selectors used throughout the Claro theme.
+*
+* [1] http://www.w3.org/TR/CSS21/cascade.html#cascade
+* cssClassLastCount=0;
+*/
+.nav.navbar-nav >  li {
+    width : 14.28%;
+    height : 33px;
+}
+.nav.navbar-nav >  li >  a {
+    width : 100%;
+    color : white;
+    height : 33px;
+    padding : 15px 55px;
+    line-height : 6px;
+}
+.nav.navbar-nav >  li >  a:hover {
+    background-color : #3b74d8 !important;
+}
+.nav.navbar-nav >  li >  a:focus {
+    background-color : #628cd7 !important;
+}
+.footer > nav > a {
+    padding : 42px;
+    color : white;
+    font-size : 11px;
+    line-height : 4;
+}
+.footerRow > div {
+    height : 45px;
+    margin-top : 14px;
+    background-color : #3b74d8;
+}
+html, body {
+    height : 100%;
+    width : 100%;
+}
+.mobile body {
+    background-color : transparent;
+    overflow-x : auto;
+}
+#myapp.claro .media.my_alertMassage.snippy-block {
+    border-radius : 5px;
+    -moz-border-radius : 5px;
+    padding : 15px;
+}
+#myapp.claro .cls_div-0 {
+    word-wrap : break-word;
+    position : absolute;
+    z-index : 900;
+    background-color : #dee7f8;
+    width : 1344px;
+    left : 2px;
+    top : 0px;
+    height : 1589px;
+}
+#myapp.claro .cls_img-1 {
+    position : absolute;
+    z-index : 900;
+    left : 7px;
+    top : 6px;
+    width : 1331px;
+}
+#myapp.claro .cls_div-2 {
+    border : 1px solid black;
+    word-wrap : break-word;
+    position : absolute;
+    z-index : 900;
+    left : 7px;
+    top : -119px;
+    width : 1328px;
+    height : 50px;
+}
+#myapp.claro .cls_p-3 {
+    border-collapse : collapse;
+    word-wrap : break-word;
+    position : absolute;
+    z-index : 900;
+    font-size : 11px;
+    color : #3b74d8;
+    left : 115px;
+    top : 218.5px;
+}
+#myapp.claro .cls_div-4 {
+    position : absolute;
+    width : 1253px;
+    background-color : white;
+    height : 1240px;
+    left : 85px;
+    top : 193px;
+}
+#myapp.claro .cls_div-5 {
+    word-wrap : break-word;
+    position : absolute;
+    z-index : 900;
+    height : 47px;
+    width : 1224px;
+    left : 29px;
+    top : 0px;
+}
+#myapp.claro .cls_h2-6 {
+    word-wrap : break-word;
+    position : absolute;
+    z-index : 900;
+    font-size : 20px;
+    left : 0px;
+    top : -20px;
+    color : #3b74d8;
+}
+#myapp.claro .cls_h2-7 {
+    word-wrap : break-word;
+    position : absolute;
+    z-index : 900;
+    font-size : 20px;
+    left : 92px;
+    top : -20px;
+    color : #c0a403;
+}
+#myapp.claro .cls_span-8 {
+    word-wrap : break-word;
+    position : absolute;
+    z-index : 900;
+    font-size : 11px;
+    color : #c0a403;
+    left : 173px;
+    top : 24.5px;
+}
+#myapp.claro .cls_div-9 {
+    position : absolute;
+    z-index : 900;
+    height : 526px;
+    width : 299px;
+    left : 0px;
+    top : 59px;
+    max-width : 400px;
+}
+#myapp.claro .col-sm-3.snippy-block.cls_div-10 {
+    border-width : 0px;
+    border-style : none;
+    margin : 0px;
+    padding : 0px;
+    box-sizing : border-box;
+    color : rgb(51, 51, 51);
+    display : block;
+    float : left;
+    font-family : 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size : 14px;
+    font-style : normal;
+    font-weight : normal;
+    height : 525.069458007813px;
+    line-height : 22.2222232818604px;
+    list-style-type : disc;
+    outline : rgb(51, 51, 51) none 0px;
+    overflow : visible;
+    position : absolute;
+    text-align : start;
+    vertical-align : baseline;
+    white-space : normal;
+    width : 298.506958007813px;
+    background-color : rgba(0, 0, 0, 0);
+    background-position : 0% 0%;
+    background-repeat : repeat;
+    left : 22px;
+    top : 68px;
+}
+#myapp.claro .left_menu.snippy-block.cls_div-11 {
+    border-style : none;
+    border-width : 0px;
+    box-sizing : border-box;
+    color : rgb(51, 51, 51);
+    display : block;
+    font-family : 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size : 14px;
+    font-style : normal;
+    font-weight : normal;
+    height : 211.97917175293px;
+    line-height : 22.2222232818604px;
+    list-style-type : disc;
+    margin : 0px;
+    outline : rgb(51, 51, 51) none 0px;
+    overflow : visible;
+    padding : 16px;
+    position : static;
+    text-align : start;
+    vertical-align : baseline;
+    white-space : normal;
+    width : 268.506958007813px;
+    background-color : rgb(238, 238, 238);
+    background-position : 0% 0%;
+    background-repeat : repeat;
+}
+#myapp.claro .snippy-block.cls_p-12 {
+    border-style : none;
+    border-width : 0px;
+    box-sizing : border-box;
+    color : rgb(51, 51, 51);
+    display : block;
+    font-family : 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size : 14px;
+    font-style : normal;
+    font-weight : normal;
+    height : 20px;
+    line-height : 22.2222232818604px;
+    list-style-type : disc;
+    margin : 0px 0px 10px;
+    outline : rgb(51, 51, 51) none 0px;
+    overflow : visible;
+    padding : 0px;
+    position : static;
+    text-align : start;
+    vertical-align : baseline;
+    white-space : normal;
+    width : 236.527786254883px;
+    background-color : rgba(0, 0, 0, 0);
+    background-position : 0% 0%;
+    background-repeat : repeat;
+}
+#myapp.claro .cls_a-13 {
+    border-style : none;
+    border-width : 0px;
+    box-sizing : border-box;
+    color : rgb(51, 122, 183);
+    display : inline;
+    font-family : 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size : 14px;
+    font-style : normal;
+    font-weight : normal;
+    line-height : 22.2222232818604px;
+    list-style-type : disc;
+    margin : 0px;
+    outline : rgb(51, 122, 183) none 0px;
+    overflow : visible;
+    padding : 0px;
+    position : static;
+    text-align : start;
+    vertical-align : baseline;
+    white-space : normal;
+    background-color : rgba(0, 0, 0, 0);
+    background-position : 0% 0%;
+    background-repeat : repeat;
+}
+#myapp.claro .snippy-block.cls_p-14 {
+    border-style : none;
+    border-width : 0px;
+    box-sizing : border-box;
+    color : rgb(51, 51, 51);
+    display : block;
+    font-family : 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size : 14px;
+    font-style : normal;
+    font-weight : normal;
+    height : 20px;
+    line-height : 22.2222232818604px;
+    list-style-type : disc;
+    margin : 0px 0px 10px;
+    outline : rgb(51, 51, 51) none 0px;
+    overflow : visible;
+    padding : 0px;
+    position : static;
+    text-align : start;
+    vertical-align : baseline;
+    white-space : normal;
+    width : 236.527786254883px;
+    background-color : rgba(0, 0, 0, 0);
+    background-position : 0% 0%;
+    background-repeat : repeat;
+}
+#myapp.claro .cls_a-15 {
+    border-style : none;
+    border-width : 0px;
+    box-sizing : border-box;
+    color : rgb(51, 122, 183);
+    display : inline;
+    font-family : 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size : 14px;
+    font-style : normal;
+    font-weight : normal;
+    line-height : 22.2222232818604px;
+    list-style-type : disc;
+    margin : 0px;
+    outline : rgb(51, 122, 183) none 0px;
+    overflow : visible;
+    padding : 0px;
+    position : static;
+    text-align : start;
+    vertical-align : baseline;
+    white-space : normal;
+    background-color : rgba(0, 0, 0, 0);
+    background-position : 0% 0%;
+    background-repeat : repeat;
+}
+#myapp.claro .snippy-block.cls_p-16 {
+    border-style : none;
+    border-width : 0px;
+    box-sizing : border-box;
+    color : rgb(51, 51, 51);
+    display : block;
+    font-family : 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size : 14px;
+    font-style : normal;
+    font-weight : normal;
+    height : 20px;
+    line-height : 22.2222232818604px;
+    list-style-type : disc;
+    margin : 0px 0px 10px;
+    outline : rgb(51, 51, 51) none 0px;
+    overflow : visible;
+    padding : 0px;
+    position : static;
+    text-align : start;
+    vertical-align : baseline;
+    white-space : normal;
+    width : 236.527786254883px;
+    background-color : rgba(0, 0, 0, 0);
+    background-position : 0% 0%;
+    background-repeat : repeat;
+}
+#myapp.claro .cls_a-17 {
+    border-style : none;
+    border-width : 0px;
+    box-sizing : border-box;
+    color : rgb(51, 122, 183);
+    display : inline;
+    font-family : 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size : 14px;
+    font-style : normal;
+    font-weight : normal;
+    line-height : 22.2222232818604px;
+    list-style-type : disc;
+    margin : 0px;
+    outline : rgb(51, 122, 183) none 0px;
+    overflow : visible;
+    padding : 0px;
+    position : static;
+    text-align : start;
+    vertical-align : baseline;
+    white-space : normal;
+    background-color : rgba(0, 0, 0, 0);
+    background-position : 0% 0%;
+    background-repeat : repeat;
+}
+#myapp.claro .snippy-block.cls_p-18 {
+    border-style : none;
+    border-width : 0px;
+    box-sizing : border-box;
+    color : rgb(51, 51, 51);
+    display : block;
+    font-family : 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size : 14px;
+    font-style : normal;
+    font-weight : normal;
+    height : 20px;
+    line-height : 22.2222232818604px;
+    list-style-type : disc;
+    margin : 0px 0px 10px;
+    outline : rgb(51, 51, 51) none 0px;
+    overflow : visible;
+    padding : 0px;
+    position : static;
+    text-align : start;
+    vertical-align : baseline;
+    white-space : normal;
+    width : 236.527786254883px;
+    background-color : rgba(0, 0, 0, 0);
+    background-position : 0% 0%;
+    background-repeat : repeat;
+}
+#myapp.claro .cls_a-19 {
+    border-style : none;
+    border-width : 0px;
+    box-sizing : border-box;
+    color : rgb(51, 122, 183);
+    display : inline;
+    font-family : 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size : 14px;
+    font-style : normal;
+    font-weight : normal;
+    line-height : 22.2222232818604px;
+    list-style-type : disc;
+    margin : 0px;
+    outline : rgb(51, 122, 183) none 0px;
+    overflow : visible;
+    padding : 0px;
+    position : static;
+    text-align : start;
+    vertical-align : baseline;
+    white-space : normal;
+    background-color : rgba(0, 0, 0, 0);
+    background-position : 0% 0%;
+    background-repeat : repeat;
+}
+#myapp.claro .snippy-block.cls_p-20 {
+    border-style : none;
+    border-width : 0px;
+    box-sizing : border-box;
+    color : rgb(51, 51, 51);
+    display : block;
+    font-family : 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size : 14px;
+    font-style : normal;
+    font-weight : normal;
+    height : 20px;
+    line-height : 22.2222232818604px;
+    list-style-type : disc;
+    margin : 0px 0px 10px;
+    outline : rgb(51, 51, 51) none 0px;
+    overflow : visible;
+    padding : 0px;
+    position : static;
+    text-align : start;
+    vertical-align : baseline;
+    white-space : normal;
+    width : 236.527786254883px;
+    background-color : rgba(0, 0, 0, 0);
+    background-position : 0% 0%;
+    background-repeat : repeat;
+}
+#myapp.claro .cls_a-21 {
+    border-style : none;
+    border-width : 0px;
+    box-sizing : border-box;
+    color : rgb(51, 122, 183);
+    display : inline;
+    font-family : 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size : 14px;
+    font-style : normal;
+    font-weight : normal;
+    line-height : 22.2222232818604px;
+    list-style-type : disc;
+    margin : 0px;
+    outline : rgb(51, 122, 183) none 0px;
+    overflow : visible;
+    padding : 0px;
+    position : static;
+    text-align : start;
+    vertical-align : baseline;
+    white-space : normal;
+    background-color : rgba(0, 0, 0, 0);
+    background-position : 0% 0%;
+    background-repeat : repeat;
+}
+#myapp.claro .snippy-block.cls_p-22 {
+    border-style : none;
+    border-width : 0px;
+    box-sizing : border-box;
+    color : rgb(51, 51, 51);
+    display : block;
+    font-family : 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size : 14px;
+    font-style : normal;
+    font-weight : normal;
+    height : 20px;
+    line-height : 22.2222232818604px;
+    list-style-type : disc;
+    margin : 0px 0px 10px;
+    outline : rgb(51, 51, 51) none 0px;
+    overflow : visible;
+    padding : 0px;
+    position : static;
+    text-align : start;
+    vertical-align : baseline;
+    white-space : normal;
+    width : 236.527786254883px;
+    background-color : rgba(0, 0, 0, 0);
+    background-position : 0% 0%;
+    background-repeat : repeat;
+}
+#myapp.claro .cls_a-23 {
+    border-style : none;
+    border-width : 0px;
+    box-sizing : border-box;
+    color : rgb(51, 122, 183);
+    display : inline;
+    font-family : 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size : 14px;
+    font-style : normal;
+    font-weight : normal;
+    line-height : 22.2222232818604px;
+    list-style-type : disc;
+    margin : 0px;
+    outline : rgb(51, 122, 183) none 0px;
+    overflow : visible;
+    padding : 0px;
+    position : static;
+    text-align : start;
+    vertical-align : baseline;
+    white-space : normal;
+    background-color : rgba(0, 0, 0, 0);
+    background-position : 0% 0%;
+    background-repeat : repeat;
+}
+#myapp.claro .font-color1.snippy-block.cls_h4-24 {
+    display : block;
+    border-style : none;
+    border-width : 0px;
+    box-sizing : border-box;
+    color : rgb(59, 116, 216);
+    font-family : 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size : 20px;
+    font-style : normal;
+    font-weight : 500;
+    height : 21.1111125946045px;
+    line-height : 24.4444446563721px;
+    list-style-type : disc;
+    margin : 10px 0px;
+    outline : rgb(59, 116, 216) none 0px;
+    overflow : visible;
+    padding : 0px;
+    position : static;
+    text-align : start;
+    vertical-align : baseline;
+    white-space : normal;
+    width : 268.506958007813px;
+    background-color : rgba(0, 0, 0, 0);
+    background-position : 0% 0%;
+    background-repeat : repeat;
+}
+#myapp.claro .left_menu.snippy-block.cls_div-25 {
+    display : block;
+    border-style : none;
+    border-width : 0px;
+    box-sizing : border-box;
+    color : rgb(51, 51, 51);
+    font-family : 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size : 14px;
+    font-style : normal;
+    font-weight : normal;
+    height : 271.979187011719px;
+    line-height : 22.2222232818604px;
+    list-style-type : disc;
+    margin : 0px;
+    outline : rgb(51, 51, 51) none 0px;
+    overflow : visible;
+    padding : 16px;
+    position : static;
+    text-align : start;
+    vertical-align : baseline;
+    white-space : normal;
+    width : 268.506958007813px;
+    background-color : rgb(238, 238, 238);
+    background-position : 0% 0%;
+    background-repeat : repeat;
+}
+#myapp.claro .snippy-block.cls_p-26 {
+    border-style : none;
+    border-width : 0px;
+    box-sizing : border-box;
+    color : rgb(51, 51, 51);
+    display : block;
+    font-family : 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size : 14px;
+    font-style : normal;
+    font-weight : normal;
+    height : 20px;
+    line-height : 22.2222232818604px;
+    list-style-type : disc;
+    margin : 0px 0px 10px;
+    outline : rgb(51, 51, 51) none 0px;
+    overflow : visible;
+    padding : 0px;
+    position : static;
+    text-align : start;
+    vertical-align : baseline;
+    white-space : normal;
+    width : 236.527786254883px;
+    background-color : rgba(0, 0, 0, 0);
+    background-position : 0% 0%;
+    background-repeat : repeat;
+}
+#myapp.claro .cls_a-27 {
+    border-style : none;
+    border-width : 0px;
+    box-sizing : border-box;
+    color : rgb(51, 122, 183);
+    display : inline;
+    font-family : 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size : 14px;
+    font-style : normal;
+    font-weight : normal;
+    line-height : 22.2222232818604px;
+    list-style-type : disc;
+    margin : 0px;
+    outline : rgb(51, 122, 183) none 0px;
+    overflow : visible;
+    padding : 0px;
+    position : static;
+    text-align : start;
+    vertical-align : baseline;
+    white-space : normal;
+    background-color : rgba(0, 0, 0, 0);
+    background-position : 0% 0%;
+    background-repeat : repeat;
+}
+#myapp.claro .snippy-block.cls_p-28 {
+    border-style : none;
+    border-width : 0px;
+    box-sizing : border-box;
+    color : rgb(51, 51, 51);
+    display : block;
+    font-family : 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size : 14px;
+    font-style : normal;
+    font-weight : normal;
+    height : 20px;
+    line-height : 22.2222232818604px;
+    list-style-type : disc;
+    margin : 0px 0px 10px;
+    outline : rgb(51, 51, 51) none 0px;
+    overflow : visible;
+    padding : 0px;
+    position : static;
+    text-align : start;
+    vertical-align : baseline;
+    white-space : normal;
+    width : 236.527786254883px;
+    background-color : rgba(0, 0, 0, 0);
+    background-position : 0% 0%;
+    background-repeat : repeat;
+}
+#myapp.claro .cls_a-29 {
+    border-style : none;
+    border-width : 0px;
+    box-sizing : border-box;
+    color : rgb(51, 122, 183);
+    display : inline;
+    font-family : 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size : 14px;
+    font-style : normal;
+    font-weight : normal;
+    line-height : 22.2222232818604px;
+    list-style-type : disc;
+    margin : 0px;
+    outline : rgb(51, 122, 183) none 0px;
+    overflow : visible;
+    padding : 0px;
+    position : static;
+    text-align : start;
+    vertical-align : baseline;
+    white-space : normal;
+    background-color : rgba(0, 0, 0, 0);
+    background-position : 0% 0%;
+    background-repeat : repeat;
+}
+#myapp.claro .snippy-block.cls_p-30 {
+    border-style : none;
+    border-width : 0px;
+    box-sizing : border-box;
+    color : rgb(51, 51, 51);
+    display : block;
+    font-family : 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size : 14px;
+    font-style : normal;
+    font-weight : normal;
+    height : 20px;
+    line-height : 22.2222232818604px;
+    list-style-type : disc;
+    margin : 0px 0px 10px;
+    outline : rgb(51, 51, 51) none 0px;
+    overflow : visible;
+    padding : 0px;
+    position : static;
+    text-align : start;
+    vertical-align : baseline;
+    white-space : normal;
+    width : 236.527786254883px;
+    background-color : rgba(0, 0, 0, 0);
+    background-position : 0% 0%;
+    background-repeat : repeat;
+}
+#myapp.claro .cls_a-31 {
+    border-style : none;
+    border-width : 0px;
+    box-sizing : border-box;
+    color : rgb(51, 122, 183);
+    display : inline;
+    font-family : 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size : 14px;
+    font-style : normal;
+    font-weight : normal;
+    line-height : 22.2222232818604px;
+    list-style-type : disc;
+    margin : 0px;
+    outline : rgb(51, 122, 183) none 0px;
+    overflow : visible;
+    padding : 0px;
+    position : static;
+    text-align : start;
+    vertical-align : baseline;
+    white-space : normal;
+    background-color : rgba(0, 0, 0, 0);
+    background-position : 0% 0%;
+    background-repeat : repeat;
+}
+#myapp.claro .snippy-block.cls_p-32 {
+    border-style : none;
+    border-width : 0px;
+    box-sizing : border-box;
+    color : rgb(51, 51, 51);
+    display : block;
+    font-family : 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size : 14px;
+    font-style : normal;
+    font-weight : normal;
+    height : 20px;
+    line-height : 22.2222232818604px;
+    list-style-type : disc;
+    margin : 0px 0px 10px;
+    outline : rgb(51, 51, 51) none 0px;
+    overflow : visible;
+    padding : 0px;
+    position : static;
+    text-align : start;
+    vertical-align : baseline;
+    white-space : normal;
+    width : 236.527786254883px;
+    background-color : rgba(0, 0, 0, 0);
+    background-position : 0% 0%;
+    background-repeat : repeat;
+}
+#myapp.claro .cls_a-33 {
+    border-style : none;
+    border-width : 0px;
+    box-sizing : border-box;
+    color : rgb(51, 122, 183);
+    display : inline;
+    font-family : 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size : 14px;
+    font-style : normal;
+    font-weight : normal;
+    line-height : 22.2222232818604px;
+    list-style-type : disc;
+    margin : 0px;
+    outline : rgb(51, 122, 183) none 0px;
+    overflow : visible;
+    padding : 0px;
+    position : static;
+    text-align : start;
+    vertical-align : baseline;
+    white-space : normal;
+    background-color : rgba(0, 0, 0, 0);
+    background-position : 0% 0%;
+    background-repeat : repeat;
+}
+#myapp.claro .snippy-block.cls_p-34 {
+    border-style : none;
+    border-width : 0px;
+    box-sizing : border-box;
+    color : rgb(51, 51, 51);
+    display : block;
+    font-family : 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size : 14px;
+    font-style : normal;
+    font-weight : normal;
+    height : 20px;
+    line-height : 22.2222232818604px;
+    list-style-type : disc;
+    margin : 0px 0px 10px;
+    outline : rgb(51, 51, 51) none 0px;
+    overflow : visible;
+    padding : 0px;
+    position : static;
+    text-align : start;
+    vertical-align : baseline;
+    white-space : normal;
+    width : 236.527786254883px;
+    background-color : rgba(0, 0, 0, 0);
+    background-position : 0% 0%;
+    background-repeat : repeat;
+}
+#myapp.claro .cls_a-35 {
+    border-style : none;
+    border-width : 0px;
+    box-sizing : border-box;
+    color : rgb(51, 122, 183);
+    display : inline;
+    font-family : 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size : 14px;
+    font-style : normal;
+    font-weight : normal;
+    line-height : 22.2222232818604px;
+    list-style-type : disc;
+    margin : 0px;
+    outline : rgb(51, 122, 183) none 0px;
+    overflow : visible;
+    padding : 0px;
+    position : static;
+    text-align : start;
+    vertical-align : baseline;
+    white-space : normal;
+    background-color : rgba(0, 0, 0, 0);
+    background-position : 0% 0%;
+    background-repeat : repeat;
+}
+#myapp.claro .snippy-block.cls_p-36 {
+    border-style : none;
+    border-width : 0px;
+    box-sizing : border-box;
+    color : rgb(51, 51, 51);
+    display : block;
+    font-family : 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size : 14px;
+    font-style : normal;
+    font-weight : normal;
+    height : 20px;
+    line-height : 22.2222232818604px;
+    list-style-type : disc;
+    margin : 0px 0px 10px;
+    outline : rgb(51, 51, 51) none 0px;
+    overflow : visible;
+    padding : 0px;
+    position : static;
+    text-align : start;
+    vertical-align : baseline;
+    white-space : normal;
+    width : 236.527786254883px;
+    background-color : rgba(0, 0, 0, 0);
+    background-position : 0% 0%;
+    background-repeat : repeat;
+}
+#myapp.claro .cls_a-37 {
+    border-style : none;
+    border-width : 0px;
+    box-sizing : border-box;
+    color : rgb(51, 122, 183);
+    display : inline;
+    font-family : 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size : 14px;
+    font-style : normal;
+    font-weight : normal;
+    line-height : 22.2222232818604px;
+    list-style-type : disc;
+    margin : 0px;
+    outline : rgb(51, 122, 183) none 0px;
+    overflow : visible;
+    padding : 0px;
+    position : static;
+    text-align : start;
+    vertical-align : baseline;
+    white-space : normal;
+    background-color : rgba(0, 0, 0, 0);
+    background-position : 0% 0%;
+    background-repeat : repeat;
+}
+#myapp.claro .snippy-block.cls_p-38 {
+    border-style : none;
+    border-width : 0px;
+    box-sizing : border-box;
+    color : rgb(51, 51, 51);
+    display : block;
+    font-family : 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size : 14px;
+    font-style : normal;
+    font-weight : normal;
+    height : 20px;
+    line-height : 22.2222232818604px;
+    list-style-type : disc;
+    margin : 0px 0px 10px;
+    outline : rgb(51, 51, 51) none 0px;
+    overflow : visible;
+    padding : 0px;
+    position : static;
+    text-align : start;
+    vertical-align : baseline;
+    white-space : normal;
+    width : 236.527786254883px;
+    background-color : rgba(0, 0, 0, 0);
+    background-position : 0% 0%;
+    background-repeat : repeat;
+}
+#myapp.claro .cls_a-39 {
+    border-style : none;
+    border-width : 0px;
+    box-sizing : border-box;
+    color : rgb(51, 122, 183);
+    display : inline;
+    font-family : 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size : 14px;
+    font-style : normal;
+    font-weight : normal;
+    line-height : 22.2222232818604px;
+    list-style-type : disc;
+    margin : 0px;
+    outline : rgb(51, 122, 183) none 0px;
+    overflow : visible;
+    padding : 0px;
+    position : static;
+    text-align : start;
+    vertical-align : baseline;
+    white-space : normal;
+    background-color : rgba(0, 0, 0, 0);
+    background-position : 0% 0%;
+    background-repeat : repeat;
+}
+#myapp.claro .snippy-block.cls_p-40 {
+    border-style : none;
+    border-width : 0px;
+    box-sizing : border-box;
+    color : rgb(51, 51, 51);
+    display : block;
+    font-family : 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size : 14px;
+    font-style : normal;
+    font-weight : normal;
+    height : 20px;
+    line-height : 22.2222232818604px;
+    list-style-type : disc;
+    margin : 0px 0px 10px;
+    outline : rgb(51, 51, 51) none 0px;
+    overflow : visible;
+    padding : 0px;
+    position : static;
+    text-align : start;
+    vertical-align : baseline;
+    white-space : normal;
+    width : 236.527786254883px;
+    background-color : rgba(0, 0, 0, 0);
+    background-position : 0% 0%;
+    background-repeat : repeat;
+}
+#myapp.claro .cls_a-41 {
+    border-style : none;
+    border-width : 0px;
+    box-sizing : border-box;
+    color : rgb(51, 122, 183);
+    display : inline;
+    font-family : 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size : 14px;
+    font-style : normal;
+    font-weight : normal;
+    line-height : 22.2222232818604px;
+    list-style-type : disc;
+    margin : 0px;
+    outline : rgb(51, 122, 183) none 0px;
+    overflow : visible;
+    padding : 0px;
+    position : static;
+    text-align : start;
+    vertical-align : baseline;
+    white-space : normal;
+    background-color : rgba(0, 0, 0, 0);
+    background-position : 0% 0%;
+    background-repeat : repeat;
+}
+#myapp.claro .cls_div-42 {
+    word-wrap : break-word;
+    position : absolute;
+    z-index : 900;
+    left : 0px;
+    top : 1166px;
+    height : 74px;
+    background-color : #3b74d8;
+    width : 100%;
+}
+#myapp.claro .cls_img-43 {
+    z-index : 900;
+    left : 0px;
+    top : 0px;
+    height : 74px;
+    position : absolute;
+}
+#myapp.claro .cls_div-44 {
+    z-index : 900;
+    height : 74px;
+    left : 551px;
+    top : 0px;
+    width : 70%;
+    float : right;
+}
+#myapp.claro .col-sm-7.go_green_text.snippy-block.cls_div-45 {
+    border-width : 0px;
+    border-style : none;
+    margin : 0px;
+    padding : 0px;
+    box-sizing : border-box;
+    color : rgb(51, 51, 51);
+    display : block;
+    float : left;
+    font-family : 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size : 14px;
+    font-style : normal;
+    font-weight : normal;
+    height : 73.9930572509766px;
+    line-height : 22.2222232818604px;
+    list-style-type : disc;
+    outline : rgb(51, 51, 51) none 0px;
+    overflow : visible;
+    text-align : start;
+    vertical-align : baseline;
+    white-space : normal;
+    background-color : rgb(59, 116, 216);
+    background-position : 0% 0%;
+    background-repeat : repeat;
+    left : 0px;
+    top : 0px;
+    width : 100%;
+}
+#myapp.claro .snippy-block.cls_p-46 {
+    border-width : 0px;
+    border-style : none;
+    margin : 0px 0px 10px;
+    padding : 0px;
+    box-sizing : border-box;
+    color : rgb(255, 255, 255);
+    display : block;
+    font-family : 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size : 14px;
+    font-style : normal;
+    font-weight : normal;
+    height : 40px;
+    line-height : 22.2222232818604px;
+    list-style-type : disc;
+    outline : rgb(255, 255, 255) none 0px;
+    overflow : visible;
+    position : static;
+    text-align : start;
+    vertical-align : baseline;
+    white-space : normal;
+    background-color : rgba(0, 0, 0, 0);
+    background-position : 0% 0%;
+    background-repeat : repeat;
+}
+#myapp.claro .cls_div-47 {
+    padding : 5px;
+    position : absolute;
+    width : 896px;
+    height : 596px;
+    left : 319px;
+    top : 442.078125px;
+}
+#myapp.claro .cls_div-48 {
+    position : absolute;
+    z-index : 900;
+    height : 311px;
+    width : 896px;
+    left : 0px;
+    top : 0px;
+}
+#myapp.claro .col-sm-9.My-Alert-container.top7.snippy-block.cls_div-49 {
+    border-radius : 8px;
+    border-style : none;
+    border-width : 0px;
+    box-sizing : border-box;
+    color : rgb(51, 51, 51);
+    display : block;
+    float : left;
+    font-family : 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size : 14px;
+    font-style : normal;
+    font-weight : normal;
+    height : 311.197937011719px;
+    line-height : 22.2222232818604px;
+    list-style-type : disc;
+    margin : 0px;
+    outline : rgb(51, 51, 51) none 0px;
+    overflow : visible;
+    padding : 0px;
+    position : relative;
+    text-align : start;
+    vertical-align : baseline;
+    white-space : normal;
+    width : 895.520874023438px;
+    background-color : rgb(187, 206, 242);
+    background-position : 0% 0%;
+    background-repeat : repeat;
+}
+#myapp.claro .media.my_alertMassage.snippy-block.cls_div-50 {
+    border-width : 0px;
+    border-style : none;
+    border-radius : 5px;
+    padding : 5px;
+    display : block;
+    box-sizing : border-box;
+    color : rgb(51, 51, 51);
+    font-family : 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size : 14px;
+    font-style : normal;
+    font-weight : normal;
+    height : 293.211822509766px;
+    list-style-type : disc;
+    outline : rgb(51, 51, 51) none 0px;
+    overflow : hidden;
+    position : absolute;
+    text-align : start;
+    vertical-align : baseline;
+    white-space : normal;
+    width : 877.534729003906px;
+    background-position : 0% 0%;
+    background-repeat : repeat;
+    left : 8.9921875px;
+    top : 8.9921875px;
+    background-color : white;
+}
+#myapp.claro .col-sm-12.ac_sum.snippy-block.cls_div-51 {
+    border-style : none;
+    border-width : 0px;
+    box-sizing : border-box;
+    color : rgb(51, 51, 51);
+    display : block;
+    float : left;
+    font-family : 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size : 14px;
+    font-style : normal;
+    font-weight : normal;
+    height : 28.9930572509766px;
+    line-height : 22.2222232818604px;
+    list-style-type : disc;
+    margin : 0px 0px 11.9999990463257px;
+    outline : rgb(51, 51, 51) none 0px;
+    overflow : visible;
+    padding : 5px 16px 4px 11.9999990463257px;
+    position : relative;
+    text-align : start;
+    vertical-align : baseline;
+    white-space : normal;
+    width : 847.534729003906px;
+    background-color : rgb(238, 238, 238);
+    background-position : 0% 0%;
+    background-repeat : repeat;
+}
+#myapp.claro .col-sm-6.font-color.snippy-block.cls_p-52 {
+    border-style : none;
+    border-width : 0px;
+    box-sizing : border-box;
+    color : rgb(59, 116, 216);
+    display : block;
+    float : left;
+    font-family : 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size : 13px;
+    font-style : normal;
+    font-weight : normal;
+    height : 18.8888893127441px;
+    line-height : 20.6349239349365px;
+    list-style-type : disc;
+    margin : 0px;
+    outline : rgb(59, 116, 216) none 0px;
+    overflow : visible;
+    padding : 0px;
+    position : relative;
+    text-align : start;
+    vertical-align : baseline;
+    white-space : normal;
+    width : 409.774322509766px;
+    background-color : rgba(0, 0, 0, 0);
+    background-position : 0% 0%;
+    background-repeat : repeat;
+}
+#myapp.claro .cls_strong-53 {
+    border-style : none;
+    border-width : 0px;
+    box-sizing : border-box;
+    color : rgb(59, 116, 216);
+    display : inline;
+    font-family : 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size : 13px;
+    font-style : normal;
+    font-weight : bold;
+    line-height : 20.6349239349365px;
+    list-style-type : disc;
+    margin : 0px;
+    outline : rgb(59, 116, 216) none 0px;
+    overflow : visible;
+    padding : 0px;
+    position : static;
+    text-align : start;
+    vertical-align : baseline;
+    white-space : normal;
+    background-color : rgba(0, 0, 0, 0);
+    background-position : 0% 0%;
+    background-repeat : repeat;
+}
+#myapp.claro .col-sm-6.pull-right.text-right.summaryAs.snippy-block.cls_p-54 {
+    border-style : none;
+    border-width : 0px;
+    box-sizing : border-box;
+    color : rgb(192, 164, 3);
+    display : block;
+    float : right;
+    font-family : 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size : 14px;
+    font-style : normal;
+    font-weight : bold;
+    height : 20px;
+    line-height : 22.2222232818604px;
+    list-style-type : disc;
+    margin : 0px;
+    outline : rgb(192, 164, 3) none 0px;
+    overflow : visible;
+    padding : 0px;
+    position : relative;
+    text-align : right;
+    vertical-align : baseline;
+    white-space : normal;
+    width : 409.774322509766px;
+    background-color : rgba(0, 0, 0, 0);
+    background-position : 0% 0%;
+    background-repeat : repeat;
+}
+#myapp.claro .media-body.balance_sum.snippy-block.cls_div-55 {
+    border-style : none;
+    border-width : 0px;
+    box-sizing : border-box;
+    color : rgb(51, 51, 51);
+    display : table-cell;
+    font-family : 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size : 14px;
+    font-style : normal;
+    font-weight : normal;
+    height : 221.857650756836px;
+    line-height : 22.2222232818604px;
+    list-style-type : disc;
+    margin : 0px;
+    outline : rgb(51, 51, 51) none 0px;
+    overflow : hidden;
+    padding : 0px;
+    position : static;
+    text-align : start;
+    vertical-align : top;
+    white-space : normal;
+    width : 878.888916015625px;
+    background-color : rgba(0, 0, 0, 0);
+    background-position : 0% 0%;
+    background-repeat : repeat;
+}
+#myapp.claro .table-responsive.balance_sum.table_format.snippy-block.cls_div-56 {
+    border-width : 0px;
+    border-style : none;
+    margin : 0px;
+    padding : 0px;
+    box-sizing : border-box;
+    color : rgb(51, 51, 51);
+    display : block;
+    font-family : 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size : 14px;
+    font-style : normal;
+    font-weight : normal;
+    height : 35.9895858764648px;
+    list-style-type : disc;
+    outline : rgb(51, 51, 51) none 0px;
+    overflow : hidden;
+    text-align : start;
+    vertical-align : baseline;
+    white-space : normal;
+    width : 877.986145019531px;
+    background-color : rgba(0, 0, 0, 0);
+    background-position : 0% 0%;
+    background-repeat : repeat;
+}
+#myapp.claro .table.snippy-block.cls_table-57 {
+    border-style : none;
+    border-width : 0px;
+    box-sizing : border-box;
+    color : rgb(51, 51, 51);
+    display : table;
+    font-family : 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size : 14px;
+    font-style : normal;
+    font-weight : normal;
+    height : 20px;
+    list-style-type : disc;
+    margin : 0px 0px 20px;
+    outline : rgb(51, 51, 51) none 0px;
+    overflow : visible;
+    padding : 0px;
+    position : static;
+    text-align : start;
+    vertical-align : baseline;
+    white-space : normal;
+    width : 877.777770996094px;
+    background-color : rgba(0, 0, 0, 0);
+    background-position : 0% 0%;
+    background-repeat : repeat;
+}
+#myapp.claro .cls_colgroup-58 {
+    border-style : none;
+    border-width : 0px;
+    box-sizing : border-box;
+    color : rgb(51, 51, 51);
+    display : table-column-group;
+    font-family : 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size : 14px;
+    font-style : normal;
+    font-weight : normal;
+    list-style-type : disc;
+    margin : 0px;
+    outline : rgb(51, 51, 51) none 0px;
+    overflow : visible;
+    padding : 0px;
+    position : static;
+    text-align : start;
+    vertical-align : middle;
+    white-space : normal;
+    background-color : rgba(0, 0, 0, 0);
+    background-position : 0% 0%;
+    background-repeat : repeat;
+}
+#myapp.claro .cls_col-59 {
+    border-style : none;
+    border-width : 0px;
+    box-sizing : border-box;
+    color : rgb(51, 51, 51);
+    display : table-column;
+    font-family : 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size : 14px;
+    font-style : normal;
+    font-weight : normal;
+    list-style-type : disc;
+    margin : 0px;
+    outline : rgb(51, 51, 51) none 0px;
+    overflow : visible;
+    padding : 0px;
+    position : static;
+    text-align : start;
+    vertical-align : middle;
+    white-space : normal;
+    background-color : rgba(0, 0, 0, 0);
+    background-position : 0% 0%;
+    background-repeat : repeat;
+}
+#myapp.claro .cls_col-60 {
+    border-style : none;
+    border-width : 0px;
+    box-sizing : border-box;
+    color : rgb(51, 51, 51);
+    display : table-column;
+    font-family : 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size : 14px;
+    font-style : normal;
+    font-weight : normal;
+    list-style-type : disc;
+    margin : 0px;
+    outline : rgb(51, 51, 51) none 0px;
+    overflow : visible;
+    padding : 0px;
+    position : static;
+    text-align : start;
+    vertical-align : middle;
+    white-space : normal;
+    background-color : rgba(0, 0, 0, 0);
+    background-position : 0% 0%;
+    background-repeat : repeat;
+}
+#myapp.claro .cls_col-61 {
+    border-style : none;
+    border-width : 0px;
+    box-sizing : border-box;
+    color : rgb(51, 51, 51);
+    display : table-column;
+    font-family : 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size : 14px;
+    font-style : normal;
+    font-weight : normal;
+    list-style-type : disc;
+    margin : 0px;
+    outline : rgb(51, 51, 51) none 0px;
+    overflow : visible;
+    padding : 0px;
+    position : static;
+    text-align : start;
+    vertical-align : middle;
+    white-space : normal;
+    background-color : rgba(0, 0, 0, 0);
+    background-position : 0% 0%;
+    background-repeat : repeat;
+}
+#myapp.claro .cls_col-62 {
+    border-style : none;
+    border-width : 0px;
+    box-sizing : border-box;
+    color : rgb(51, 51, 51);
+    display : table-column;
+    font-family : 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size : 14px;
+    font-style : normal;
+    font-weight : normal;
+    list-style-type : disc;
+    margin : 0px;
+    outline : rgb(51, 51, 51) none 0px;
+    overflow : visible;
+    padding : 0px;
+    position : static;
+    text-align : start;
+    vertical-align : middle;
+    white-space : normal;
+    background-color : rgba(0, 0, 0, 0);
+    background-position : 0% 0%;
+    background-repeat : repeat;
+}
+#myapp.claro .cls_colgroup-63 {
+    border-style : none;
+    border-width : 0px;
+    box-sizing : border-box;
+    color : rgb(51, 51, 51);
+    display : table-column-group;
+    font-family : 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size : 14px;
+    font-style : normal;
+    font-weight : normal;
+    list-style-type : disc;
+    margin : 0px;
+    outline : rgb(51, 51, 51) none 0px;
+    overflow : visible;
+    padding : 0px;
+    position : static;
+    text-align : start;
+    vertical-align : middle;
+    white-space : normal;
+    background-color : rgba(0, 0, 0, 0);
+    background-position : 0% 0%;
+    background-repeat : repeat;
+}
+#myapp.claro .panel-group.snippy-block.cls_div-64 {
+    border-width : 0px;
+    border-style : none;
+    margin : 0px 0px 20px;
+    padding : 0px;
+    box-sizing : border-box;
+    color : rgb(51, 51, 51);
+    display : block;
+    font-family : 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size : 14px;
+    font-style : normal;
+    font-weight : normal;
+    line-height : 22.2222232818604px;
+    list-style-type : disc;
+    outline : rgb(51, 51, 51) none 0px;
+    overflow : visible;
+    position : static;
+    text-align : start;
+    vertical-align : baseline;
+    white-space : normal;
+    background-color : rgba(0, 0, 0, 0);
+    background-position : 0% 0%;
+    background-repeat : repeat;
+}
+#myapp.claro .panel.panel-default.collapse_panel.snippy-block.cls_div-65 {
+    border-width : 0px;
+    border-style : none;
+    border-radius : 4px;
+    margin : 0px;
+    padding : 0px;
+    display : block;
+    box-sizing : border-box;
+    color : rgb(51, 51, 51);
+    font-family : 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size : 14px;
+    font-style : normal;
+    font-weight : normal;
+    height : 80.4340286254883px;
+    line-height : 22.2222232818604px;
+    list-style-type : disc;
+    outline : rgb(51, 51, 51) none 0px;
+    overflow : visible;
+    position : static;
+    text-align : start;
+    vertical-align : baseline;
+    white-space : normal;
+    background-color : rgb(255, 255, 255);
+    background-position : 0% 0%;
+    background-repeat : repeat;
+}
+#myapp.claro .panel-heading.panel-h.snippy-block.cls_div-66 {
+    border-style : none;
+    border-width : 0px;
+    border-top-left-radius : 2.99999976158142px;
+    border-top-right-radius : 2.99999976158142px;
+    box-sizing : border-box;
+    color : rgb(51, 51, 51);
+    display : block;
+    font-family : 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size : 14px;
+    font-style : normal;
+    font-weight : normal;
+    height : 44.4444465637207px;
+    line-height : 22.2222232818604px;
+    list-style-type : disc;
+    margin : 0px;
+    outline : rgb(51, 51, 51) none 0px;
+    overflow : visible;
+    padding : 10px 15px;
+    position : static;
+    text-align : start;
+    vertical-align : baseline;
+    white-space : normal;
+    width : 878.888916015625px;
+    background-color : rgb(255, 255, 255);
+    background-position : 0% 0%;
+    background-repeat : repeat;
+}
+#myapp.claro .panel-title.panel_text.snippy-block.cls_h4-67 {
+    border-style : none;
+    border-width : 0px;
+    box-sizing : border-box;
+    color : rgb(59, 116, 216);
+    display : block;
+    font-family : 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size : 13px;
+    font-style : normal;
+    font-weight : 500;
+    height : 14.4444446563721px;
+    line-height : 15.8888893127441px;
+    list-style-type : disc;
+    margin : 0px;
+    outline : rgb(59, 116, 216) none 0px;
+    overflow : visible;
+    padding : 0px;
+    position : static;
+    text-align : start;
+    vertical-align : baseline;
+    white-space : normal;
+    width : 848.888916015625px;
+    background-color : rgba(0, 0, 0, 0);
+    background-position : 0% 0%;
+    background-repeat : repeat;
+}
+#myapp.claro .accordion-toggle.snippy-block.cls_p-68 {
+    border-style : none;
+    border-width : 0px;
+    box-sizing : border-box;
+    color : rgb(59, 116, 216);
+    display : block;
+    font-family : 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size : 13px;
+    font-style : normal;
+    font-weight : 500;
+    height : 14.4444446563721px;
+    line-height : 15.8888893127441px;
+    list-style-type : disc;
+    margin : 0px 0px 10px;
+    outline : rgb(59, 116, 216) none 0px;
+    overflow : visible;
+    padding : 0px;
+    position : static;
+    text-align : start;
+    vertical-align : baseline;
+    white-space : normal;
+    width : 848.888916015625px;
+    background-color : rgba(0, 0, 0, 0);
+    background-position : 0% 0%;
+    background-repeat : repeat;
+}
+#myapp.claro .glyphicon.collapse_icon.account_icon.cls_span-69 {
+    border-style : none;
+    border-width : 0px;
+    box-sizing : border-box;
+    color : rgb(59, 116, 216);
+    display : inline-block;
+    font-family : 'Glyphicons Halflings';
+    font-size : 10px;
+    font-style : normal;
+    font-weight : normal;
+    line-height : 11.1111116409302px;
+    list-style-type : disc;
+    margin : 0px;
+    outline : rgb(59, 116, 216) none 0px;
+    overflow : visible;
+    padding : 0px;
+    position : relative;
+    text-align : start;
+    top : 1px;
+    vertical-align : baseline;
+    white-space : normal;
+    background-color : rgba(0, 0, 0, 0);
+    background-position : 0% 0%;
+    background-repeat : repeat;
+}
+#myapp.claro .panel-collapse.collapse.in.snippy-block.cls_div-70 {
+    border-style : none;
+    border-width : 0px;
+    box-sizing : border-box;
+    color : rgb(51, 51, 51);
+    display : block;
+    font-family : 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size : 14px;
+    font-style : normal;
+    font-weight : normal;
+    height : 35.9895858764648px;
+    line-height : 22.2222232818604px;
+    list-style-type : disc;
+    margin : 0px;
+    outline : rgb(51, 51, 51) none 0px;
+    overflow : visible;
+    padding : 0px;
+    position : static;
+    text-align : start;
+    vertical-align : baseline;
+    white-space : normal;
+    width : 878.888916015625px;
+    background-color : rgba(0, 0, 0, 0);
+    background-position : 0% 0%;
+    background-repeat : repeat;
+}
+#myapp.claro .panel-body.border.panel_text.snippy-block.cls_div-71 {
+    border-style : none;
+    border-width : 0px;
+    box-sizing : border-box;
+    color : rgb(59, 116, 216);
+    display : block;
+    font-family : 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size : 13px;
+    font-style : normal;
+    font-weight : normal;
+    height : 35.9895858764648px;
+    line-height : 20.6349239349365px;
+    list-style-type : disc;
+    margin : 0px;
+    outline : rgb(59, 116, 216) none 0px;
+    overflow : visible;
+    padding : 0px;
+    position : static;
+    text-align : start;
+    vertical-align : baseline;
+    white-space : normal;
+    width : 878.888916015625px;
+    background-color : rgba(0, 0, 0, 0);
+    background-position : 0% 0%;
+    background-repeat : repeat;
+}
+#myapp.claro .table-responsive.table_format.snippy-block.cls_div-72 {
+    border-style : none;
+    border-width : 0px;
+    box-sizing : border-box;
+    color : rgb(59, 116, 216);
+    display : block;
+    font-family : 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size : 13px;
+    font-style : normal;
+    font-weight : normal;
+    height : 35.9895858764648px;
+    list-style-type : disc;
+    margin : 0px;
+    outline : rgb(59, 116, 216) none 0px;
+    overflow : hidden;
+    padding : 0px;
+    position : static;
+    text-align : start;
+    vertical-align : baseline;
+    white-space : normal;
+    width : 878.888916015625px;
+    background-color : rgba(0, 0, 0, 0);
+    background-position : 0% 0%;
+    background-repeat : repeat;
+}
+#myapp.claro .table.coll_text.snippy-block.cls_table-73 {
+    border-style : none;
+    border-width : 0px;
+    box-sizing : border-box;
+    color : rgb(192, 164, 3);
+    display : table;
+    font-family : 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size : 11.9999990463257px;
+    font-style : normal;
+    font-weight : normal;
+    height : 16.6666679382324px;
+    list-style-type : disc;
+    margin : 0px 0px 20px;
+    outline : rgb(192, 164, 3) none 0px;
+    overflow : visible;
+    padding : 0px;
+    position : static;
+    text-align : start;
+    vertical-align : baseline;
+    white-space : normal;
+    width : 878.888916015625px;
+    background-color : rgba(0, 0, 0, 0);
+    background-position : 0% 0%;
+    background-repeat : repeat;
+}
+#myapp.claro .cls_colgroup-74 {
+    border-style : none;
+    border-width : 0px;
+    box-sizing : border-box;
+    color : rgb(192, 164, 3);
+    display : table-column-group;
+    font-family : 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size : 11.9999990463257px;
+    font-style : normal;
+    font-weight : normal;
+    list-style-type : disc;
+    margin : 0px;
+    outline : rgb(192, 164, 3) none 0px;
+    overflow : visible;
+    padding : 0px;
+    position : static;
+    text-align : start;
+    vertical-align : middle;
+    white-space : normal;
+    background-color : rgba(0, 0, 0, 0);
+    background-position : 0% 0%;
+    background-repeat : repeat;
+}
+#myapp.claro .cls_col-75 {
+    border-style : none;
+    border-width : 0px;
+    box-sizing : border-box;
+    color : rgb(192, 164, 3);
+    display : table-column;
+    font-family : 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size : 11.9999990463257px;
+    font-style : normal;
+    font-weight : normal;
+    list-style-type : disc;
+    margin : 0px;
+    outline : rgb(192, 164, 3) none 0px;
+    overflow : visible;
+    padding : 0px;
+    position : static;
+    text-align : start;
+    vertical-align : middle;
+    white-space : normal;
+    background-color : rgba(0, 0, 0, 0);
+    background-position : 0% 0%;
+    background-repeat : repeat;
+}
+#myapp.claro .cls_col-76 {
+    border-style : none;
+    border-width : 0px;
+    box-sizing : border-box;
+    color : rgb(192, 164, 3);
+    display : table-column;
+    font-family : 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size : 11.9999990463257px;
+    font-style : normal;
+    font-weight : normal;
+    list-style-type : disc;
+    margin : 0px;
+    outline : rgb(192, 164, 3) none 0px;
+    overflow : visible;
+    padding : 0px;
+    position : static;
+    text-align : start;
+    vertical-align : middle;
+    white-space : normal;
+    background-color : rgba(0, 0, 0, 0);
+    background-position : 0% 0%;
+    background-repeat : repeat;
+}
+#myapp.claro .cls_col-77 {
+    border-style : none;
+    border-width : 0px;
+    box-sizing : border-box;
+    color : rgb(192, 164, 3);
+    display : table-column;
+    font-family : 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size : 11.9999990463257px;
+    font-style : normal;
+    font-weight : normal;
+    list-style-type : disc;
+    margin : 0px;
+    outline : rgb(192, 164, 3) none 0px;
+    overflow : visible;
+    padding : 0px;
+    position : static;
+    text-align : start;
+    vertical-align : middle;
+    white-space : normal;
+    background-color : rgba(0, 0, 0, 0);
+    background-position : 0% 0%;
+    background-repeat : repeat;
+}
+#myapp.claro .cls_col-78 {
+    border-style : none;
+    border-width : 0px;
+    box-sizing : border-box;
+    color : rgb(192, 164, 3);
+    display : table-column;
+    font-family : 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size : 11.9999990463257px;
+    font-style : normal;
+    font-weight : normal;
+    list-style-type : disc;
+    margin : 0px;
+    outline : rgb(192, 164, 3) none 0px;
+    overflow : visible;
+    padding : 0px;
+    position : static;
+    text-align : start;
+    vertical-align : middle;
+    white-space : normal;
+    background-color : rgba(0, 0, 0, 0);
+    background-position : 0% 0%;
+    background-repeat : repeat;
+}
+#myapp.claro .cls_tbody-79 {
+    border-style : none;
+    border-width : 0px;
+    box-sizing : border-box;
+    color : rgb(192, 164, 3);
+    display : table-row-group;
+    font-family : 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size : 11.9999990463257px;
+    font-style : normal;
+    font-weight : normal;
+    height : 16.6666679382324px;
+    list-style-type : disc;
+    margin : 0px;
+    outline : rgb(192, 164, 3) none 0px;
+    overflow : visible;
+    padding : 0px;
+    position : static;
+    text-align : start;
+    vertical-align : middle;
+    white-space : normal;
+    width : 878.888916015625px;
+    background-color : rgba(0, 0, 0, 0);
+    background-position : 0% 0%;
+    background-repeat : repeat;
+}
+#myapp.claro .cls_tr-80 {
+    border-style : none;
+    border-width : 0px;
+    box-sizing : border-box;
+    color : rgb(192, 164, 3);
+    display : table-row;
+    font-family : 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size : 11.9999990463257px;
+    font-style : normal;
+    font-weight : normal;
+    height : 16.6666679382324px;
+    list-style-type : disc;
+    margin : 0px;
+    outline : rgb(192, 164, 3) none 0px;
+    overflow : visible;
+    padding : 0px;
+    position : static;
+    text-align : start;
+    vertical-align : middle;
+    white-space : normal;
+    width : 878.888916015625px;
+    background-color : rgba(0, 0, 0, 0);
+    background-position : 0% 0%;
+    background-repeat : repeat;
+}
+#myapp.claro .coll_text.cls_td-81 {
+    border-style : none;
+    border-width : 0px;
+    box-sizing : border-box;
+    color : rgb(192, 164, 3);
+    display : table-cell;
+    font-family : 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size : 11.9999990463257px;
+    font-style : normal;
+    font-weight : 500;
+    height : 16.6666679382324px;
+    line-height : 19.0476207733154px;
+    list-style-type : disc;
+    margin : 0px;
+    outline : rgb(192, 164, 3) none 0px;
+    overflow : visible;
+    padding : 0px 37px;
+    position : static;
+    text-align : start;
+    vertical-align : top;
+    white-space : normal;
+    width : 315.555572509766px;
+    background-color : rgba(0, 0, 0, 0);
+    background-position : 0% 0%;
+    background-repeat : repeat;
+}
+#myapp.claro .font_color.cls_span-82 {
+    border-style : none;
+    border-width : 0px;
+    box-sizing : border-box;
+    color : rgb(59, 116, 216);
+    display : inline;
+    font-family : 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size : 11.9999990463257px;
+    font-style : normal;
+    font-weight : 500;
+    line-height : 19.0476207733154px;
+    list-style-type : disc;
+    margin : 0px;
+    outline : rgb(59, 116, 216) none 0px;
+    overflow : visible;
+    padding : 0px;
+    position : static;
+    text-align : start;
+    vertical-align : baseline;
+    white-space : normal;
+    background-color : rgba(0, 0, 0, 0);
+    background-position : 0% 0%;
+    background-repeat : repeat;
+}
+#myapp.claro .coll_text.currency.cls_td-83 {
+    border-style : none;
+    border-width : 0px;
+    box-sizing : border-box;
+    color : rgb(192, 164, 3);
+    display : table-cell;
+    font-family : 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size : 11.9999990463257px;
+    font-style : normal;
+    font-weight : 500;
+    height : 16.6666679382324px;
+    line-height : 19.0476207733154px;
+    list-style-type : disc;
+    margin : 0px;
+    outline : rgb(192, 164, 3) none 0px;
+    overflow : visible;
+    padding : 0px 37px;
+    position : static;
+    text-align : start;
+    vertical-align : top;
+    white-space : normal;
+    width : 177.777786254883px;
+    background-color : rgba(0, 0, 0, 0);
+    background-position : 0% 0%;
+    background-repeat : repeat;
+}
+#myapp.claro .coll_text.currency.cls_td-84 {
+    border-style : none;
+    border-width : 0px;
+    box-sizing : border-box;
+    color : rgb(192, 164, 3);
+    display : table-cell;
+    font-family : 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size : 11.9999990463257px;
+    font-style : normal;
+    font-weight : 500;
+    height : 16.6666679382324px;
+    line-height : 19.0476207733154px;
+    list-style-type : disc;
+    margin : 0px;
+    outline : rgb(192, 164, 3) none 0px;
+    overflow : visible;
+    padding : 0px 37px;
+    position : static;
+    text-align : start;
+    vertical-align : top;
+    white-space : normal;
+    width : 177.777786254883px;
+    background-color : rgba(0, 0, 0, 0);
+    background-position : 0% 0%;
+    background-repeat : repeat;
+}
+#myapp.claro .coll_text.cls_td-85 {
+    border-style : none;
+    border-width : 0px;
+    box-sizing : border-box;
+    color : rgb(192, 164, 3);
+    display : table-cell;
+    font-family : 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size : 11.9999990463257px;
+    font-style : normal;
+    font-weight : 500;
+    height : 16.6666679382324px;
+    line-height : 19.0476207733154px;
+    list-style-type : disc;
+    margin : 0px;
+    outline : rgb(192, 164, 3) none 0px;
+    overflow : visible;
+    padding : 0px 37px;
+    position : static;
+    text-align : start;
+    vertical-align : top;
+    white-space : normal;
+    width : 207.777786254883px;
+    background-color : rgba(0, 0, 0, 0);
+    background-position : 0% 0%;
+    background-repeat : repeat;
+}
+#myapp.claro .panel.panel-default.collapse_panel.snippy-block.cls_div-86 {
+    border-radius : 4px;
+    border-style : none;
+    border-width : 0px;
+    box-sizing : border-box;
+    color : rgb(51, 51, 51);
+    display : block;
+    font-family : 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size : 14px;
+    font-style : normal;
+    font-weight : normal;
+    height : 80.4340286254883px;
+    line-height : 22.2222232818604px;
+    list-style-type : disc;
+    margin : 5px 0px 0px;
+    outline : rgb(51, 51, 51) none 0px;
+    overflow : visible;
+    padding : 0px;
+    position : static;
+    text-align : start;
+    vertical-align : baseline;
+    white-space : normal;
+    width : 878.888916015625px;
+    background-color : rgb(255, 255, 255);
+    background-position : 0% 0%;
+    background-repeat : repeat;
+}
+#myapp.claro .panel-heading.panel-h.snippy-block.cls_div-87 {
+    border-style : none;
+    border-width : 0px;
+    border-top-left-radius : 2.99999976158142px;
+    border-top-right-radius : 2.99999976158142px;
+    box-sizing : border-box;
+    color : rgb(51, 51, 51);
+    display : block;
+    font-family : 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size : 14px;
+    font-style : normal;
+    font-weight : normal;
+    height : 44.4444465637207px;
+    line-height : 22.2222232818604px;
+    list-style-type : disc;
+    margin : 0px;
+    outline : rgb(51, 51, 51) none 0px;
+    overflow : visible;
+    padding : 10px 15px;
+    position : static;
+    text-align : start;
+    vertical-align : baseline;
+    white-space : normal;
+    width : 878.888916015625px;
+    background-color : rgb(255, 255, 255);
+    background-position : 0% 0%;
+    background-repeat : repeat;
+}
+#myapp.claro .panel-title.panel_text.snippy-block.cls_h4-88 {
+    border-style : none;
+    border-width : 0px;
+    box-sizing : border-box;
+    color : rgb(59, 116, 216);
+    display : block;
+    font-family : 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size : 13px;
+    font-style : normal;
+    font-weight : 500;
+    height : 14.4444446563721px;
+    line-height : 15.8888893127441px;
+    list-style-type : disc;
+    margin : 0px;
+    outline : rgb(59, 116, 216) none 0px;
+    overflow : visible;
+    padding : 0px;
+    position : static;
+    text-align : start;
+    vertical-align : baseline;
+    white-space : normal;
+    width : 848.888916015625px;
+    background-color : rgba(0, 0, 0, 0);
+    background-position : 0% 0%;
+    background-repeat : repeat;
+}
+#myapp.claro .accordion-toggle.snippy-block.cls_p-89 {
+    border-style : none;
+    border-width : 0px;
+    box-sizing : border-box;
+    color : rgb(59, 116, 216);
+    display : block;
+    font-family : 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size : 13px;
+    font-style : normal;
+    font-weight : 500;
+    height : 14.4444446563721px;
+    line-height : 15.8888893127441px;
+    list-style-type : disc;
+    margin : 0px 0px 10px;
+    outline : rgb(59, 116, 216) none 0px;
+    overflow : visible;
+    padding : 0px;
+    position : static;
+    text-align : start;
+    vertical-align : baseline;
+    white-space : normal;
+    width : 848.888916015625px;
+    background-color : rgba(0, 0, 0, 0);
+    background-position : 0% 0%;
+    background-repeat : repeat;
+}
+#myapp.claro .glyphicon.glyphicon.collapse_icon.account_icon.cls_span-90 {
+    border-style : none;
+    border-width : 0px;
+    box-sizing : border-box;
+    color : rgb(59, 116, 216);
+    display : inline-block;
+    font-family : 'Glyphicons Halflings';
+    font-size : 10px;
+    font-style : normal;
+    font-weight : normal;
+    line-height : 11.1111116409302px;
+    list-style-type : disc;
+    margin : 0px;
+    outline : rgb(59, 116, 216) none 0px;
+    overflow : visible;
+    padding : 0px;
+    position : relative;
+    text-align : start;
+    top : 1px;
+    vertical-align : baseline;
+    white-space : normal;
+    background-color : rgba(0, 0, 0, 0);
+    background-position : 0% 0%;
+    background-repeat : repeat;
+}
+#myapp.claro .panel-collapse.collapse.in.snippy-block.cls_div-91 {
+    border-style : none;
+    border-width : 0px;
+    box-sizing : border-box;
+    color : rgb(51, 51, 51);
+    display : block;
+    font-family : 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size : 14px;
+    font-style : normal;
+    font-weight : normal;
+    height : 35.9895858764648px;
+    line-height : 22.2222232818604px;
+    list-style-type : disc;
+    margin : 0px;
+    outline : rgb(51, 51, 51) none 0px;
+    overflow : visible;
+    padding : 0px;
+    position : static;
+    text-align : start;
+    vertical-align : baseline;
+    white-space : normal;
+    width : 878.888916015625px;
+    background-color : rgba(0, 0, 0, 0);
+    background-position : 0% 0%;
+    background-repeat : repeat;
+}
+#myapp.claro .panel-body.border.padding0.snippy-block.cls_div-92 {
+    border-style : none;
+    border-width : 0px;
+    box-sizing : border-box;
+    color : rgb(51, 51, 51);
+    display : block;
+    font-family : 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size : 14px;
+    font-style : normal;
+    font-weight : normal;
+    height : 35.9895858764648px;
+    line-height : 22.2222232818604px;
+    list-style-type : disc;
+    margin : 0px;
+    outline : rgb(51, 51, 51) none 0px;
+    overflow : visible;
+    padding : 0px;
+    position : static;
+    text-align : start;
+    vertical-align : baseline;
+    white-space : normal;
+    width : 878.888916015625px;
+    background-color : rgba(0, 0, 0, 0);
+    background-position : 0% 0%;
+    background-repeat : repeat;
+}
+#myapp.claro .table-responsive.table_format.snippy-block.cls_div-93 {
+    border-style : none;
+    border-width : 0px;
+    box-sizing : border-box;
+    color : rgb(51, 51, 51);
+    display : block;
+    font-family : 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size : 14px;
+    font-style : normal;
+    font-weight : normal;
+    height : 35.9895858764648px;
+    list-style-type : disc;
+    margin : 0px;
+    outline : rgb(51, 51, 51) none 0px;
+    overflow : hidden;
+    padding : 0px;
+    position : static;
+    text-align : start;
+    vertical-align : baseline;
+    white-space : normal;
+    width : 878.888916015625px;
+    background-color : rgba(0, 0, 0, 0);
+    background-position : 0% 0%;
+    background-repeat : repeat;
+}
+#myapp.claro .table.coll_text.snippy-block.cls_table-94 {
+    border-style : none;
+    border-width : 0px;
+    box-sizing : border-box;
+    color : rgb(192, 164, 3);
+    display : table;
+    font-family : 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size : 11.9999990463257px;
+    font-style : normal;
+    font-weight : normal;
+    height : 16.6666679382324px;
+    list-style-type : disc;
+    margin : 0px 0px 20px;
+    outline : rgb(192, 164, 3) none 0px;
+    overflow : visible;
+    padding : 0px;
+    position : static;
+    text-align : start;
+    vertical-align : baseline;
+    white-space : normal;
+    width : 878.888916015625px;
+    background-color : rgba(0, 0, 0, 0);
+    background-position : 0% 0%;
+    background-repeat : repeat;
+}
+#myapp.claro .cls_tbody-95 {
+    border-style : none;
+    border-width : 0px;
+    box-sizing : border-box;
+    color : rgb(192, 164, 3);
+    display : table-row-group;
+    font-family : 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size : 11.9999990463257px;
+    font-style : normal;
+    font-weight : normal;
+    height : 16.6666679382324px;
+    list-style-type : disc;
+    margin : 0px;
+    outline : rgb(192, 164, 3) none 0px;
+    overflow : visible;
+    padding : 0px;
+    position : static;
+    text-align : start;
+    vertical-align : middle;
+    white-space : normal;
+    width : 878.888916015625px;
+    background-color : rgba(0, 0, 0, 0);
+    background-position : 0% 0%;
+    background-repeat : repeat;
+}
+#myapp.claro .cls_tr-96 {
+    border-style : none;
+    border-width : 0px;
+    box-sizing : border-box;
+    color : rgb(192, 164, 3);
+    display : table-row;
+    font-family : 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size : 11.9999990463257px;
+    font-style : normal;
+    font-weight : normal;
+    height : 16.6666679382324px;
+    list-style-type : disc;
+    margin : 0px;
+    outline : rgb(192, 164, 3) none 0px;
+    overflow : visible;
+    padding : 0px;
+    position : static;
+    text-align : start;
+    vertical-align : middle;
+    white-space : normal;
+    width : 878.888916015625px;
+    background-color : rgba(0, 0, 0, 0);
+    background-position : 0% 0%;
+    background-repeat : repeat;
+}
+#myapp.claro .coll_text.cls_td-97 {
+    border-style : none;
+    border-width : 0px;
+    box-sizing : border-box;
+    color : rgb(192, 164, 3);
+    display : table-cell;
+    font-family : 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size : 11.9999990463257px;
+    font-style : normal;
+    font-weight : 500;
+    height : 16.6666679382324px;
+    line-height : 19.0476207733154px;
+    list-style-type : disc;
+    margin : 0px;
+    outline : rgb(192, 164, 3) none 0px;
+    overflow : visible;
+    padding : 0px 37px;
+    position : static;
+    text-align : start;
+    vertical-align : top;
+    white-space : normal;
+    width : 315.555572509766px;
+    background-color : rgba(0, 0, 0, 0);
+    background-position : 0% 0%;
+    background-repeat : repeat;
+}
+#myapp.claro .font_color.cls_span-98 {
+    border-style : none;
+    border-width : 0px;
+    box-sizing : border-box;
+    color : rgb(59, 116, 216);
+    display : inline;
+    font-family : 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size : 11.9999990463257px;
+    font-style : normal;
+    font-weight : 500;
+    line-height : 19.0476207733154px;
+    list-style-type : disc;
+    margin : 0px;
+    outline : rgb(59, 116, 216) none 0px;
+    overflow : visible;
+    padding : 0px;
+    position : static;
+    text-align : start;
+    vertical-align : baseline;
+    white-space : normal;
+    background-color : rgba(0, 0, 0, 0);
+    background-position : 0% 0%;
+    background-repeat : repeat;
+}
+#myapp.claro .coll_text.currency.cls_td-99 {
+    border-style : none;
+    border-width : 0px;
+    box-sizing : border-box;
+    color : rgb(192, 164, 3);
+    display : table-cell;
+    font-family : 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size : 11.9999990463257px;
+    font-style : normal;
+    font-weight : 500;
+    height : 16.6666679382324px;
+    line-height : 19.0476207733154px;
+    list-style-type : disc;
+    margin : 0px;
+    outline : rgb(192, 164, 3) none 0px;
+    overflow : visible;
+    padding : 0px 37px;
+    position : static;
+    text-align : start;
+    vertical-align : top;
+    white-space : normal;
+    width : 177.777786254883px;
+    background-color : rgba(0, 0, 0, 0);
+    background-position : 0% 0%;
+    background-repeat : repeat;
+}
+#myapp.claro .coll_text.currency.cls_td-100 {
+    border-style : none;
+    border-width : 0px;
+    box-sizing : border-box;
+    color : rgb(192, 164, 3);
+    display : table-cell;
+    font-family : 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size : 11.9999990463257px;
+    font-style : normal;
+    font-weight : 500;
+    height : 16.6666679382324px;
+    line-height : 19.0476207733154px;
+    list-style-type : disc;
+    margin : 0px;
+    outline : rgb(192, 164, 3) none 0px;
+    overflow : visible;
+    padding : 0px 37px;
+    position : static;
+    text-align : start;
+    vertical-align : top;
+    white-space : normal;
+    width : 177.777786254883px;
+    background-color : rgba(0, 0, 0, 0);
+    background-position : 0% 0%;
+    background-repeat : repeat;
+}
+#myapp.claro .coll_text.cls_td-101 {
+    border-style : none;
+    border-width : 0px;
+    box-sizing : border-box;
+    color : rgb(192, 164, 3);
+    display : table-cell;
+    font-family : 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size : 11.9999990463257px;
+    font-style : normal;
+    font-weight : 500;
+    height : 16.6666679382324px;
+    line-height : 19.0476207733154px;
+    list-style-type : disc;
+    margin : 0px;
+    outline : rgb(192, 164, 3) none 0px;
+    overflow : visible;
+    padding : 0px 37px;
+    position : static;
+    text-align : start;
+    vertical-align : top;
+    white-space : normal;
+    width : 207.777786254883px;
+    background-color : rgba(0, 0, 0, 0);
+    background-position : 0% 0%;
+    background-repeat : repeat;
+}
+#myapp.claro .cls_div-102 {
+    word-wrap : break-word;
+    position : absolute;
+    z-index : 900;
+    width : 896px;
+    height : 234px;
+    left : 0px;
+    top : 362px;
+}
+#myapp.claro .cls_div-103 {
+    position : absolute;
+    z-index : 900;
+    height : 217px;
+    width : 28%;
+}
+#myapp.claro .thumbnail.thumbnail-align.snippy-block.cls_div-104 {
+    border-width : 1.11111116409302px;
+    border-style : solid;
+    border-radius : 4px;
+    margin : 0px;
+    padding : 0px;
+    box-sizing : border-box;
+    color : rgb(51, 51, 51);
+    display : block;
+    font-family : 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size : 14px;
+    font-style : normal;
+    font-weight : normal;
+    height : 218.611114501953px;
+    line-height : 22.2222232818604px;
+    list-style-type : disc;
+    outline : rgb(51, 51, 51) none 0px;
+    overflow : visible;
+    position : static;
+    text-align : start;
+    vertical-align : baseline;
+    white-space : normal;
+    background-color : rgb(255, 255, 255);
+    background-position : 0% 0%;
+    background-repeat : repeat;
+    width : 100%;
+}
+#myapp.claro .thum_hed.snippy-block.cls_p-105 {
+    border-width : 0px;
+    border-style : none;
+    margin : 4px 0px;
+    padding : 2.99999976158142px 7px;
+    box-sizing : border-box;
+    color : rgb(59, 116, 216);
+    display : block;
+    font-family : 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size : 14px;
+    font-style : normal;
+    font-weight : bold;
+    height : 25.9722232818604px;
+    line-height : 22.2222232818604px;
+    list-style-type : disc;
+    outline : rgb(59, 116, 216) none 0px;
+    overflow : visible;
+    position : static;
+    text-align : start;
+    vertical-align : baseline;
+    white-space : normal;
+    background-color : rgb(238, 238, 238);
+    background-position : 0% 0%;
+    background-repeat : repeat;
+    width : 100%;
+}
+#myapp.claro .thumbnail-img.cls_img-106 {
+    border-style : none;
+    border-width : 0px;
+    box-sizing : border-box;
+    color : rgb(51, 51, 51);
+    display : block;
+    font-family : 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size : 14px;
+    font-style : normal;
+    font-weight : normal;
+    height : 164.444442749023px;
+    line-height : 22.2222232818604px;
+    list-style-type : disc;
+    margin : 0px;
+    outline : rgb(51, 51, 51) none 0px;
+    overflow : visible;
+    padding : 0px;
+    position : static;
+    text-align : start;
+    vertical-align : middle;
+    white-space : normal;
+    width : 266.284729003906px;
+    background-color : rgba(0, 0, 0, 0);
+    background-position : 0% 0%;
+    background-repeat : repeat;
+}
+#myapp.claro .caption.thumb-Text.snippy-block.cls_div-107 {
+    border-width : 0px;
+    border-style : none;
+    margin : 0px;
+    padding : 9px;
+    box-sizing : border-box;
+    color : rgb(51, 51, 51);
+    display : block;
+    font-family : 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size : 14px;
+    font-style : normal;
+    font-weight : normal;
+    height : 17.9861106872559px;
+    line-height : 22.2222232818604px;
+    list-style-type : disc;
+    outline : rgb(51, 51, 51) none 0px;
+    overflow : visible;
+    position : static;
+    text-align : start;
+    vertical-align : baseline;
+    white-space : normal;
+    background-color : rgba(0, 0, 0, 0);
+    background-position : 0% 0%;
+    background-repeat : repeat;
+    width : 100%;
+}
+#myapp.claro .carousel-caption.thum_foot.snippy-block.cls_div-108 {
+    border-width : 0px;
+    border-style : none;
+    margin : 0px;
+    padding : 5px 0px 0px 8px;
+    bottom : 20px;
+    box-sizing : border-box;
+    color : rgb(255, 255, 255);
+    display : block;
+    font-family : 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size : 14px;
+    font-style : normal;
+    font-weight : normal;
+    height : 46.1111106872559px;
+    line-height : 22.2222232818604px;
+    list-style-type : disc;
+    outline : rgb(255, 255, 255) none 0px;
+    overflow : visible;
+    position : absolute;
+    right : 13.4201393127441px;
+    text-align : left;
+    vertical-align : baseline;
+    white-space : normal;
+    background-color : rgb(238, 238, 238);
+    background-position : 0% 0%;
+    background-repeat : repeat;
+    left : -1.3359375px;
+    top : 172.5px;
+    width : 100%;
+}
+#myapp.claro .snippy-block.cls_p-109 {
+    border-width : 0px;
+    border-style : none;
+    margin : 0px 0px 10px;
+    padding : 0px;
+    box-sizing : border-box;
+    color : rgb(59, 116, 216);
+    display : block;
+    font-family : 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size : 11px;
+    font-style : normal;
+    font-weight : bold;
+    line-height : 17.4603176116943px;
+    list-style-type : disc;
+    outline : rgb(59, 116, 216) none 0px;
+    overflow : visible;
+    position : static;
+    text-align : left;
+    vertical-align : baseline;
+    white-space : normal;
+    background-color : rgba(0, 0, 0, 0);
+    background-position : 0% 0%;
+    background-repeat : repeat;
+    width : 100%;
+}
+#myapp.claro .cls_a-110 {
+    border-style : none;
+    border-width : 0px;
+    box-sizing : border-box;
+    color : rgb(51, 122, 183);
+    display : inline;
+    font-family : 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size : 11px;
+    font-style : normal;
+    font-weight : bold;
+    line-height : 17.4603176116943px;
+    list-style-type : disc;
+    margin : 0px;
+    outline : rgb(51, 122, 183) none 0px;
+    overflow : visible;
+    padding : 0px;
+    position : static;
+    text-align : left;
+    vertical-align : baseline;
+    white-space : normal;
+    background-color : rgba(0, 0, 0, 0);
+    background-position : 0% 0%;
+    background-repeat : repeat;
+}
+#myapp.claro .cls_span-111 {
+    border-style : none;
+    border-width : 0px;
+    box-sizing : border-box;
+    color : rgb(51, 122, 183);
+    display : inline;
+    font-family : 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size : 11px;
+    font-style : normal;
+    font-weight : bold;
+    line-height : 17.4603176116943px;
+    list-style-type : disc;
+    margin : 0px;
+    outline : rgb(51, 122, 183) none 0px;
+    overflow : visible;
+    padding : 0px;
+    position : static;
+    text-align : left;
+    vertical-align : baseline;
+    white-space : normal;
+    background-color : rgba(0, 0, 0, 0);
+    background-position : 0% 0%;
+    background-repeat : repeat;
+}
+#myapp.claro .glyphicon.glyphicon-play.cls_i-112 {
+    border-style : none;
+    border-width : 0px;
+    box-sizing : border-box;
+    color : rgb(51, 122, 183);
+    display : inline-block;
+    font-family : 'Glyphicons Halflings';
+    font-size : 11px;
+    font-style : normal;
+    font-weight : normal;
+    height : 11.1111116409302px;
+    line-height : 12.222222328186px;
+    list-style-type : disc;
+    margin : 0px;
+    outline : rgb(51, 122, 183) none 0px;
+    overflow : visible;
+    padding : 0px;
+    position : relative;
+    text-align : left;
+    top : 1px;
+    vertical-align : baseline;
+    white-space : normal;
+    width : 10.9895839691162px;
+    background-color : rgba(0, 0, 0, 0);
+    background-position : 0% 0%;
+    background-repeat : repeat;
+}
+#myapp.claro .cls_div-113 {
+    z-index : 900;
+    height : 217px;
+    left : 287px;
+    top : 0px;
+    width : 30%;
+}
+#myapp.claro .thumbnail.thumbnail-align.snippy-block.cls_div-114 {
+    border-width : 1.11111116409302px;
+    border-style : solid;
+    border-radius : 4px;
+    margin : 0px;
+    padding : 0px;
+    display : block;
+    box-sizing : border-box;
+    color : rgb(51, 51, 51);
+    font-family : 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size : 14px;
+    font-style : normal;
+    font-weight : normal;
+    height : 218.611114501953px;
+    line-height : 22.2222232818604px;
+    list-style-type : disc;
+    outline : rgb(51, 51, 51) none 0px;
+    overflow : visible;
+    position : static;
+    text-align : start;
+    vertical-align : baseline;
+    white-space : normal;
+    background-color : rgb(255, 255, 255);
+    background-position : 0% 0%;
+    background-repeat : repeat;
+    width : 100%;
+}
+#myapp.claro .thum_hed.snippy-block.cls_p-115 {
+    border-width : 0px;
+    border-style : none;
+    margin : 4px 0px;
+    padding : 2.99999976158142px 7px;
+    box-sizing : border-box;
+    color : rgb(59, 116, 216);
+    display : block;
+    font-family : 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size : 14px;
+    font-style : normal;
+    font-weight : bold;
+    height : 25.9722232818604px;
+    line-height : 22.2222232818604px;
+    list-style-type : disc;
+    outline : rgb(59, 116, 216) none 0px;
+    overflow : visible;
+    position : static;
+    text-align : start;
+    vertical-align : baseline;
+    white-space : normal;
+    background-color : rgb(238, 238, 238);
+    background-position : 0% 0%;
+    background-repeat : repeat;
+    width : 100%;
+}
+#myapp.claro .thumbnail-img.cls_img-116 {
+    border-style : none;
+    border-width : 0px;
+    box-sizing : border-box;
+    color : rgb(51, 51, 51);
+    display : block;
+    font-family : 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size : 14px;
+    font-style : normal;
+    font-weight : normal;
+    height : 164.444442749023px;
+    line-height : 22.2222232818604px;
+    list-style-type : disc;
+    margin : 0px;
+    outline : rgb(51, 51, 51) none 0px;
+    overflow : visible;
+    padding : 0px;
+    position : static;
+    text-align : start;
+    vertical-align : middle;
+    white-space : normal;
+    width : 266.284729003906px;
+    background-color : rgba(0, 0, 0, 0);
+    background-position : 0% 0%;
+    background-repeat : repeat;
+}
+#myapp.claro .caption.thumb-Text.snippy-block.cls_div-117 {
+    border-width : 0px;
+    border-style : none;
+    margin : 0px;
+    padding : 9px;
+    box-sizing : border-box;
+    color : rgb(51, 51, 51);
+    display : block;
+    font-family : 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size : 14px;
+    font-style : normal;
+    font-weight : normal;
+    height : 17.9861106872559px;
+    line-height : 22.2222232818604px;
+    list-style-type : disc;
+    outline : rgb(51, 51, 51) none 0px;
+    overflow : visible;
+    position : static;
+    text-align : start;
+    vertical-align : baseline;
+    white-space : normal;
+    background-color : rgba(0, 0, 0, 0);
+    background-position : 0% 0%;
+    background-repeat : repeat;
+    width : 100%;
+}
+#myapp.claro .carousel-caption.thum_foot.snippy-block.cls_div-118 {
+    border-width : 0px;
+    border-style : none;
+    margin : 0px;
+    padding : 5px 0px 0px 8px;
+    bottom : 20px;
+    box-sizing : border-box;
+    color : rgb(255, 255, 255);
+    display : block;
+    font-family : 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size : 14px;
+    font-style : normal;
+    font-weight : normal;
+    height : 46.1111106872559px;
+    line-height : 22.2222232818604px;
+    list-style-type : disc;
+    outline : rgb(255, 255, 255) none 0px;
+    overflow : visible;
+    position : absolute;
+    right : 13.4201393127441px;
+    text-align : left;
+    vertical-align : baseline;
+    white-space : normal;
+    background-color : rgb(238, 238, 238);
+    background-position : 0% 0%;
+    background-repeat : repeat;
+    top : 170.890625px;
+    width : 100%;
+}
+#myapp.claro .snippy-block.cls_p-119 {
+    border-width : 0px;
+    border-style : none;
+    margin : 0px 0px 10px;
+    padding : 0px;
+    box-sizing : border-box;
+    color : rgb(59, 116, 216);
+    display : block;
+    font-family : 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size : 11px;
+    font-style : normal;
+    font-weight : bold;
+    line-height : 17.4603176116943px;
+    list-style-type : disc;
+    outline : rgb(59, 116, 216) none 0px;
+    overflow : visible;
+    position : static;
+    text-align : left;
+    vertical-align : baseline;
+    white-space : normal;
+    background-color : rgba(0, 0, 0, 0);
+    background-position : 0% 0%;
+    background-repeat : repeat;
+    width : 100%;
+}
+#myapp.claro .cls_a-120 {
+    border-style : none;
+    border-width : 0px;
+    box-sizing : border-box;
+    color : rgb(51, 122, 183);
+    display : inline;
+    font-family : 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size : 11px;
+    font-style : normal;
+    font-weight : bold;
+    line-height : 17.4603176116943px;
+    list-style-type : disc;
+    margin : 0px;
+    outline : rgb(51, 122, 183) none 0px;
+    overflow : visible;
+    padding : 0px;
+    position : static;
+    text-align : left;
+    vertical-align : baseline;
+    white-space : normal;
+    background-color : rgba(0, 0, 0, 0);
+    background-position : 0% 0%;
+    background-repeat : repeat;
+}
+#myapp.claro .cls_span-121 {
+    border-style : none;
+    border-width : 0px;
+    box-sizing : border-box;
+    color : rgb(51, 122, 183);
+    display : inline;
+    font-family : 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size : 11px;
+    font-style : normal;
+    font-weight : bold;
+    line-height : 17.4603176116943px;
+    list-style-type : disc;
+    margin : 0px;
+    outline : rgb(51, 122, 183) none 0px;
+    overflow : visible;
+    padding : 0px;
+    position : static;
+    text-align : left;
+    vertical-align : baseline;
+    white-space : normal;
+    background-color : rgba(0, 0, 0, 0);
+    background-position : 0% 0%;
+    background-repeat : repeat;
+}
+#myapp.claro .glyphicon.glyphicon-play.cls_i-122 {
+    border-style : none;
+    border-width : 0px;
+    box-sizing : border-box;
+    color : rgb(51, 122, 183);
+    display : inline-block;
+    font-family : 'Glyphicons Halflings';
+    font-size : 11px;
+    font-style : normal;
+    font-weight : normal;
+    height : 11.1111116409302px;
+    line-height : 12.222222328186px;
+    list-style-type : disc;
+    margin : 0px;
+    outline : rgb(51, 122, 183) none 0px;
+    overflow : visible;
+    padding : 0px;
+    position : relative;
+    text-align : left;
+    top : 1px;
+    vertical-align : baseline;
+    white-space : normal;
+    width : 10.9895839691162px;
+    background-color : rgba(0, 0, 0, 0);
+    background-position : 0% 0%;
+    background-repeat : repeat;
+}
+#myapp.claro .cls_div-123 {
+    position : absolute;
+    z-index : 900;
+    height : 217px;
+    width : 266px;
+    left : 582px;
+    top : 0px;
+}
+#myapp.claro .thumbnail.thumbnail-align.snippy-block.cls_div-124 {
+    border-radius : 4px;
+    border-style : solid;
+    border-width : 1.11111116409302px;
+    box-sizing : border-box;
+    color : rgb(51, 51, 51);
+    display : block;
+    font-family : 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size : 14px;
+    font-style : normal;
+    font-weight : normal;
+    height : 218.611114501953px;
+    line-height : 22.2222232818604px;
+    list-style-type : disc;
+    margin : 0px;
+    outline : rgb(51, 51, 51) none 0px;
+    overflow : visible;
+    padding : 0px;
+    position : static;
+    text-align : start;
+    vertical-align : baseline;
+    white-space : normal;
+    width : 268.506958007813px;
+    background-color : rgb(255, 255, 255);
+    background-position : 0% 0%;
+    background-repeat : repeat;
+}
+#myapp.claro .thum_hed.snippy-block.cls_p-125 {
+    border-style : none;
+    border-width : 0px;
+    box-sizing : border-box;
+    color : rgb(59, 116, 216);
+    display : block;
+    font-family : 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size : 14px;
+    font-style : normal;
+    font-weight : bold;
+    height : 25.9722232818604px;
+    line-height : 22.2222232818604px;
+    list-style-type : disc;
+    margin : 4px 0px;
+    outline : rgb(59, 116, 216) none 0px;
+    overflow : visible;
+    padding : 2.99999976158142px 7px;
+    position : static;
+    text-align : start;
+    vertical-align : baseline;
+    white-space : normal;
+    width : 266.284729003906px;
+    background-color : rgb(238, 238, 238);
+    background-position : 0% 0%;
+    background-repeat : repeat;
+}
+#myapp.claro .thumbnail-img.cls_img-126 {
+    border-style : none;
+    border-width : 0px;
+    box-sizing : border-box;
+    color : rgb(51, 51, 51);
+    display : block;
+    font-family : 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size : 14px;
+    font-style : normal;
+    font-weight : normal;
+    height : 164.444442749023px;
+    line-height : 22.2222232818604px;
+    list-style-type : disc;
+    margin : 0px;
+    outline : rgb(51, 51, 51) none 0px;
+    overflow : visible;
+    padding : 0px;
+    position : static;
+    text-align : start;
+    vertical-align : middle;
+    white-space : normal;
+    width : 266.284729003906px;
+    background-color : rgba(0, 0, 0, 0);
+    background-position : 0% 0%;
+    background-repeat : repeat;
+}
+#myapp.claro .caption.thumb-Text.snippy-block.cls_div-127 {
+    border-style : none;
+    border-width : 0px;
+    box-sizing : border-box;
+    color : rgb(51, 51, 51);
+    display : block;
+    font-family : 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size : 14px;
+    font-style : normal;
+    font-weight : normal;
+    height : 17.9861106872559px;
+    line-height : 22.2222232818604px;
+    list-style-type : disc;
+    margin : 0px;
+    outline : rgb(51, 51, 51) none 0px;
+    overflow : visible;
+    padding : 9px;
+    position : static;
+    text-align : start;
+    vertical-align : baseline;
+    white-space : normal;
+    width : 266.284729003906px;
+    background-color : rgba(0, 0, 0, 0);
+    background-position : 0% 0%;
+    background-repeat : repeat;
+}
+#myapp.claro .carousel-caption.thum_foot.snippy-block.cls_div-128 {
+    border-width : 0px;
+    border-style : none;
+    margin : 0px;
+    padding : 5px 0px 0px 8px;
+    bottom : 20px;
+    box-sizing : border-box;
+    color : rgb(255, 255, 255);
+    display : block;
+    font-family : 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size : 14px;
+    font-style : normal;
+    font-weight : normal;
+    height : 46.1111106872559px;
+    line-height : 22.2222232818604px;
+    list-style-type : disc;
+    outline : rgb(255, 255, 255) none 0px;
+    overflow : visible;
+    position : absolute;
+    right : 13.4201393127441px;
+    text-align : left;
+    vertical-align : baseline;
+    white-space : normal;
+    width : 268.680572509766px;
+    background-color : rgb(238, 238, 238);
+    background-position : 0% 0%;
+    background-repeat : repeat;
+    left : 0px;
+    top : 170.890625px;
+}
+#myapp.claro .snippy-block.cls_p-129 {
+    border-style : none;
+    border-width : 0px;
+    box-sizing : border-box;
+    color : rgb(59, 116, 216);
+    display : block;
+    font-family : 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size : 11px;
+    font-style : normal;
+    font-weight : bold;
+    height : 31.1111125946045px;
+    line-height : 17.4603176116943px;
+    list-style-type : disc;
+    margin : 0px 0px 10px;
+    outline : rgb(59, 116, 216) none 0px;
+    overflow : visible;
+    padding : 0px;
+    position : static;
+    text-align : left;
+    vertical-align : baseline;
+    white-space : normal;
+    width : 260.694458007813px;
+    background-color : rgba(0, 0, 0, 0);
+    background-position : 0% 0%;
+    background-repeat : repeat;
+}
+#myapp.claro .cls_a-130 {
+    border-style : none;
+    border-width : 0px;
+    box-sizing : border-box;
+    color : rgb(51, 122, 183);
+    display : inline;
+    font-family : 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size : 11px;
+    font-style : normal;
+    font-weight : bold;
+    line-height : 17.4603176116943px;
+    list-style-type : disc;
+    margin : 0px;
+    outline : rgb(51, 122, 183) none 0px;
+    overflow : visible;
+    padding : 0px;
+    position : static;
+    text-align : left;
+    vertical-align : baseline;
+    white-space : normal;
+    background-color : rgba(0, 0, 0, 0);
+    background-position : 0% 0%;
+    background-repeat : repeat;
+}
+#myapp.claro .cls_span-131 {
+    border-style : none;
+    border-width : 0px;
+    box-sizing : border-box;
+    color : rgb(51, 122, 183);
+    display : inline;
+    font-family : 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size : 11px;
+    font-style : normal;
+    font-weight : bold;
+    line-height : 17.4603176116943px;
+    list-style-type : disc;
+    margin : 0px;
+    outline : rgb(51, 122, 183) none 0px;
+    overflow : visible;
+    padding : 0px;
+    position : static;
+    text-align : left;
+    vertical-align : baseline;
+    white-space : normal;
+    background-color : rgba(0, 0, 0, 0);
+    background-position : 0% 0%;
+    background-repeat : repeat;
+}
+#myapp.claro .glyphicon.glyphicon-play.cls_i-132 {
+    border-style : none;
+    border-width : 0px;
+    box-sizing : border-box;
+    color : rgb(51, 122, 183);
+    display : inline-block;
+    font-family : 'Glyphicons Halflings';
+    font-size : 11px;
+    font-style : normal;
+    font-weight : normal;
+    height : 11.1111116409302px;
+    line-height : 12.222222328186px;
+    list-style-type : disc;
+    margin : 0px;
+    outline : rgb(51, 122, 183) none 0px;
+    overflow : visible;
+    padding : 0px;
+    position : relative;
+    text-align : left;
+    top : 1px;
+    vertical-align : baseline;
+    white-space : normal;
+    width : 10.9895839691162px;
+    background-color : rgba(0, 0, 0, 0);
+    background-position : 0% 0%;
+    background-repeat : repeat;
+}
+#myapp.claro .cls_div-133 {
+    position : absolute;
+    z-index : 900;
+    width : 897px;
+    left : 408px;
+    top : 465.078125px;
+    height : 149px;
+}
+#myapp.claro .banner-cong.snippy-block.cls_div-134 {
+    border-width : 0px;
+    border-style : none;
+    margin : 0px;
+    padding : 0px;
+    box-sizing : border-box;
+    color : rgb(51, 51, 51);
+    display : block;
+    float : left;
+    font-family : 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size : 14px;
+    font-style : normal;
+    font-weight : normal;
+    line-height : 22.2222232818604px;
+    list-style-type : disc;
+    outline : rgb(51, 51, 51) none 0px;
+    overflow : visible;
+    position : static;
+    text-align : start;
+    vertical-align : baseline;
+    white-space : normal;
+    width : 895.989624023438px;
+    background-color : rgb(58, 115, 215);
+    background-position : 0% 0%;
+    background-repeat : repeat;
+    height : 146px;
+}
+#myapp.claro .cls_img-135 {
+    width : 689.895874023438px;
+    float : left;
+    border-style : none;
+    border-width : 0px;
+    box-sizing : border-box;
+    color : rgb(51, 51, 51);
+    display : block;
+    font-family : 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size : 14px;
+    font-style : normal;
+    font-weight : normal;
+    height : 140px;
+    line-height : 22.2222232818604px;
+    list-style-type : disc;
+    margin : 0px;
+    outline : rgb(51, 51, 51) none 0px;
+    overflow : visible;
+    padding : 0px;
+    position : static;
+    text-align : start;
+    vertical-align : middle;
+    white-space : normal;
+    background-color : rgba(0, 0, 0, 0);
+    background-position : 0% 0%;
+    background-repeat : repeat;
+}
+#myapp.claro .dataSection.snippy-block.cls_div-136 {
+    border-width : 0px;
+    border-style : none;
+    margin : 0px;
+    padding : 0px 0px 0px 11.9999990463257px;
+    box-sizing : border-box;
+    color : rgb(255, 255, 255);
+    display : block;
+    float : left;
+    font-family : 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size : 14px;
+    font-style : normal;
+    font-weight : normal;
+    line-height : 22.2222232818604px;
+    list-style-type : disc;
+    outline : rgb(255, 255, 255) none 0px;
+    overflow : visible;
+    position : static;
+    text-align : start;
+    vertical-align : baseline;
+    white-space : normal;
+    width : 179.184036254883px;
+    background-color : rgba(0, 0, 0, 0);
+    background-position : 0% 0%;
+    background-repeat : repeat;
+    height : 152.328125px;
+}
+#myapp.claro .offerValue.cls_span-137 {
+    border-style : none;
+    border-width : 0px;
+    box-sizing : border-box;
+    color : rgb(255, 255, 255);
+    display : inline;
+    font-family : 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size : 60px;
+    font-style : normal;
+    font-weight : normal;
+    line-height : 95.2380981445313px;
+    list-style-type : disc;
+    margin : 0px;
+    outline : rgb(255, 255, 255) none 0px;
+    overflow : visible;
+    padding : 0px;
+    position : static;
+    text-align : start;
+    vertical-align : baseline;
+    white-space : normal;
+    background-color : rgba(0, 0, 0, 0);
+    background-position : 0% 0%;
+    background-repeat : repeat;
+}
+#myapp.claro .cls_br-138 {
+    border-style : none;
+    border-width : 0px;
+    box-sizing : border-box;
+    color : rgb(255, 255, 255);
+    display : inline;
+    font-family : 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size : 14px;
+    font-style : normal;
+    font-weight : normal;
+    line-height : 22.2222232818604px;
+    list-style-type : disc;
+    margin : 0px;
+    outline : rgb(255, 255, 255) none 0px;
+    overflow : visible;
+    padding : 0px;
+    position : static;
+    text-align : start;
+    vertical-align : baseline;
+    white-space : normal;
+    background-color : rgba(0, 0, 0, 0);
+    background-position : 0% 0%;
+    background-repeat : repeat;
+}
+#myapp.claro .offerEMI.cls_span-139 {
+    border-style : none;
+    border-width : 0px;
+    box-sizing : border-box;
+    color : rgb(255, 255, 255);
+    display : inline;
+    font-family : 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size : 22px;
+    font-style : normal;
+    font-weight : normal;
+    line-height : 34.9206352233887px;
+    list-style-type : disc;
+    margin : 0px;
+    outline : rgb(255, 255, 255) none 0px;
+    overflow : visible;
+    padding : 0px;
+    position : static;
+    text-align : start;
+    vertical-align : baseline;
+    white-space : normal;
+    background-color : rgba(0, 0, 0, 0);
+    background-position : 0% 0%;
+    background-repeat : repeat;
+}
+#myapp.claro .cls_br-140 {
+    border-style : none;
+    border-width : 0px;
+    box-sizing : border-box;
+    color : rgb(255, 255, 255);
+    display : inline;
+    font-family : 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size : 14px;
+    font-style : normal;
+    font-weight : normal;
+    line-height : 22.2222232818604px;
+    list-style-type : disc;
+    margin : 0px;
+    outline : rgb(255, 255, 255) none 0px;
+    overflow : visible;
+    padding : 0px;
+    position : static;
+    text-align : start;
+    vertical-align : baseline;
+    white-space : normal;
+    background-color : rgba(0, 0, 0, 0);
+    background-position : 0% 0%;
+    background-repeat : repeat;
+}
+#myapp.claro .offerApply.cls_span-141 {
+    border-style : none;
+    border-width : 0px;
+    box-sizing : border-box;
+    color : rgb(255, 255, 255);
+    display : inline;
+    font-family : 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size : 11.9999990463257px;
+    font-style : normal;
+    font-weight : normal;
+    line-height : 19.0476207733154px;
+    list-style-type : disc;
+    margin : 0px;
+    outline : rgb(255, 255, 255) none 0px;
+    overflow : visible;
+    padding : 0px;
+    position : static;
+    text-align : start;
+    vertical-align : baseline;
+    white-space : normal;
+    background-color : rgba(0, 0, 0, 0);
+    background-position : 0% 0%;
+    background-repeat : repeat;
+}
+#myapp.claro .cls_img-142 {
+    position : absolute;
+    z-index : 900;
+    left : 0px;
+    top : 1489px;
+    width : 100%;
+}
+#myapp.claro .cls_div-143 {
+    position : absolute;
+    z-index : 900;
+    height : 188px;
+    width : 896px;
+    left : 409px;
+    top : 256px;
+}
+#myapp.claro .col-sm-9.My-Alert-container.snippy-block.cls_div-144 {
+    border-width : 0px;
+    border-style : none;
+    border-radius : 8px;
+    margin : 0px;
+    padding : 0px;
+    box-sizing : border-box;
+    color : rgb(51, 51, 51);
+    display : block;
+    float : left;
+    font-family : 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size : 14px;
+    font-style : normal;
+    font-weight : normal;
+    height : 187.986114501953px;
+    line-height : 22.2222232818604px;
+    list-style-type : disc;
+    outline : rgb(51, 51, 51) none 0px;
+    overflow : visible;
+    position : absolute;
+    text-align : start;
+    vertical-align : baseline;
+    white-space : normal;
+    width : 895.520874023438px;
+    background-color : rgb(187, 206, 242);
+    background-position : 0% 0%;
+    background-repeat : repeat;
+    left : -4.515625px;
+    top : 0px;
+}
+#myapp.claro .media.my_alertMassage.snippy-block.cls_div-145 {
+    border-width : 0px;
+    border-style : none;
+    border-radius : 5px;
+    margin : 0px;
+    padding : 15px;
+    box-sizing : border-box;
+    color : rgb(51, 51, 51);
+    display : block;
+    font-family : 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size : 14px;
+    font-style : normal;
+    font-weight : normal;
+    height : 170px;
+    line-height : 22.2222232818604px;
+    list-style-type : disc;
+    outline : rgb(51, 51, 51) none 0px;
+    overflow : hidden;
+    position : absolute;
+    text-align : start;
+    vertical-align : baseline;
+    white-space : normal;
+    width : 877.534729003906px;
+    background-color : rgb(255, 255, 255);
+    background-position : 0% 0%;
+    background-repeat : repeat;
+    left : 8.9921875px;
+    top : 9px;
+}
+#myapp.claro .font-color.my-alertBG.snippy-block.cls_p-146 {
+    border-style : none;
+    border-width : 0px;
+    box-sizing : border-box;
+    color : rgb(59, 116, 216);
+    display : block;
+    font-family : 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size : 13px;
+    font-style : normal;
+    font-weight : normal;
+    height : 28.8888893127441px;
+    line-height : 20.6349239349365px;
+    list-style-type : disc;
+    margin : 0px 0px 10px;
+    outline : rgb(59, 116, 216) none 0px;
+    overflow : visible;
+    padding : 5px 14px;
+    position : static;
+    text-align : start;
+    vertical-align : baseline;
+    white-space : normal;
+    width : 847.534729003906px;
+    background-color : rgb(238, 238, 238);
+    background-position : 0% 0%;
+    background-repeat : repeat;
+}
+#myapp.claro .cls_strong-147 {
+    border-style : none;
+    border-width : 0px;
+    box-sizing : border-box;
+    color : rgb(59, 116, 216);
+    display : inline;
+    font-family : 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size : 13px;
+    font-style : normal;
+    font-weight : bold;
+    line-height : 20.6349239349365px;
+    list-style-type : disc;
+    margin : 0px;
+    outline : rgb(59, 116, 216) none 0px;
+    overflow : visible;
+    padding : 0px;
+    position : static;
+    text-align : start;
+    vertical-align : baseline;
+    white-space : normal;
+    background-color : rgba(0, 0, 0, 0);
+    background-position : 0% 0%;
+    background-repeat : repeat;
+}
+#myapp {
+}
+#myapp.claro .container-fluid {
+    background-color : #dee7f8;
+}
+#myapp.claro .col-sm-10 {
+    background-color : white;
+}
+#myapp.claro .row {
+    margin-top : 20px;
+}
+#myapp.claro .thum_hed.snippy-block {
+    margin : 0px;
+}
+#myapp.claro .col-md-12 {
+    margin-top : -21px;
+}
+#myapp.claro .snippy-block {
+    font-weight : bold;
+}
+#myapp.claro .glyphicon.glyphicon-search {
+    float : right;
+}
+#myapp.claro .dataSection.snippy-block {
+    float : right;
+}
